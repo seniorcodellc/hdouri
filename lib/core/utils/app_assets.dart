@@ -42,12 +42,15 @@ class AppAssets {
   static String userName = "${SvgImages.svgPath}userName.svg";
   static String password = "${SvgImages.svgPath}password.svg";
   static String add = "${SvgImages.svgPath}add.svg";
+  static String minus = "${SvgImages.svgPath}minus.svg";
+  static String login = "${SvgImages.svgPath}login.svg";
   static String addProduct = "${SvgImages.svgPath}add_product.svg";
   static String right = "${SvgImages.svgPath}right.svg";
   static String phone = "${SvgImages.svgPath}phone.svg";
   static String lock = "${SvgImages.svgPath}lock.svg";
   static String eyeOn = "${SvgImages.svgPath}eye_on.svg";
   static String email = "${SvgImages.svgPath}email.svg";
+  static String searchLocation = "${SvgImages.svgPath}search_location.svg";
   static String location = "${SvgImages.svgPath}location.svg";
   static String questionMark = "${SvgImages.svgPath}question_mark.svg";
   static String clockCircle = "${SvgImages.svgPath}clock_circle.svg";
@@ -64,6 +67,19 @@ class AppAssets {
   static String info = "${SvgImages.svgPath}info.svg";
   static String print = "${SvgImages.svgPath}print.svg";
   static String delete = "${SvgImages.svgPath}delete.svg";
+  static String exchange = "${SvgImages.svgPath}exchange.svg";
+  static String arrowUp = "${SvgImages.svgPath}arrow_up.svg";
+  static String attendance = "${SvgImages.svgPath}attendance.svg";
+  static String refresh = "${SvgImages.svgPath}refresh.svg";
+  static String menu = "${SvgImages.svgPath}menu.svg";
+  static String graph = "${SvgImages.svgPath}graph.svg";
+  static String cameraCircle = "${SvgImages.svgPath}camera_circle.svg";
+  static String camera = "${SvgImages.svgPath}camera.svg";
+  static String voice = "${SvgImages.svgPath}voice.svg";
+  static String voiceCircle = "${SvgImages.svgPath}voice_circle.svg";
+  static String fingerPrint = "${SvgImages.svgPath}fingerprint.svg";
+  static String cameraWhite = "${SvgImages.svgPath}camera_white.svg";
+  static String error = "${SvgImages.svgPath}error.svg";
 
   //! PNG
 
@@ -73,4 +89,6 @@ class AppAssets {
   static String onboarding1 = "${PngImages.imagesPath}onboarding1.png";
   static String onboarding2 = "${PngImages.imagesPath}onboarding2.png";
   static String onboarding3 = "${PngImages.imagesPath}onboarding3.png";
+  static String voiceMic = "${PngImages.imagesPath}voice_mic.png";
+  static String fingerprintBox = "${PngImages.imagesPath}fingerprint_box.png";
 }
