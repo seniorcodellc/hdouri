@@ -19,8 +19,6 @@ class RouteGenerator {
   static Duration pageRouteTransitionDurationGlobal = 400.milliseconds;
   static Route<T>? generateRoute<T>(RouteSettings routeSettings) {
     switch (routeSettings.name) {
-      // case Routes.splashScreen:
-      //   return buildPageRoute<T>(child: SplashScreen(), routeSettings: routeSettings);
       // case Routes.onBoardingRoute:
       //   return buildPageRoute<T>(child: OnboardingScreen(), routeSettings: routeSettings);
 
