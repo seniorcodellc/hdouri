@@ -360,6 +360,11 @@ class AppStrings {
   static const String performanceBoard = 'لوحة الاداء';
   static const String presence = 'حضور';
 
+  /// **************************** Specify Your Location Screen ************************************
+  ///
+  static const String longitude = 'خط الطول ';
+  static const String latitude = 'خط العرض ';
+
   /// **************************** error handler ************************************
   static const String badRequestError = "badRequestError";
   static const String noContent = "noContent";

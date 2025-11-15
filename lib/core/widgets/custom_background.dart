@@ -40,12 +40,12 @@ class CustomBackground extends StatelessWidget {
     this.drawer,
     this.extendBody = false,
     this.showBack = false,
-    this.showAppbar = false,
+    this.showAppbar = true,
     this.showSafeArea = true,
     this.backgroundColor,
     this.appBarBackgroundColor,
     this.padding,
-    this.showNavBar=false,
+    this.showNavBar = false,
     this.floatingActionButton,
     this.scaffoldKey,
     this.statusBarColor = AppColors.transparent,
@@ -58,17 +58,21 @@ class CustomBackground extends StatelessWidget {
       value: SystemUiOverlayStyle(
         statusBarColor: statusBarColor,
 
-        statusBarBrightness: statusBarColor.isEqualTo(AppColors.white) ? Brightness.dark : null,
-        statusBarIconBrightness: statusBarColor.isEqualTo(AppColors.white) || statusBarColor.isEqualTo(AppColors.transparent)
+        statusBarBrightness: statusBarColor.isEqualTo(AppColors.white)
+            ? Brightness.dark
+            : null,
+        statusBarIconBrightness:
+            statusBarColor.isEqualTo(AppColors.white) ||
+                statusBarColor.isEqualTo(AppColors.transparent)
             ? Brightness.dark
             : Brightness.light,
       ),
       child: Scaffold(
         key: scaffoldKey,
         drawer: drawer,
-        floatingActionButton: showNavBar? CustomFloatingActionButton():null,
+        floatingActionButton: showNavBar ? CustomFloatingActionButton() : null,
 
-        bottomNavigationBar:showNavBar? BottomNavigationWidget():null,
+        bottomNavigationBar: showNavBar ? BottomNavigationWidget() : null,
         backgroundColor: backgroundColor,
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         resizeToAvoidBottomInset: true,
@@ -77,7 +81,10 @@ class CustomBackground extends StatelessWidget {
                 backgroundColor: appBarBackgroundColor,
                 title: Text(
                   title!,
-                  style: getSemiBoldTextStyle(fontSize: 24.sp, color: AppColors.primaryColor),
+                  style: getSemiBoldTextStyle(
+                    fontSize: 24.sp,
+                    color: AppColors.primaryColor,
+                  ),
                 ),
                 centerTitle: true,
                 iconTheme: IconThemeData(color: AppColors.primaryColor),
@@ -92,7 +99,8 @@ class CustomBackground extends StatelessWidget {
     );
   }
 
-  Widget? get buildChild => showSafeArea.isTrueGetWidgetOrAnotherWidget(SafeArea(child: child), child);
-
-
+  Widget? get buildChild => showSafeArea.isTrueGetWidgetOrAnotherWidget(
+    SafeArea(child: child),
+    child,
+  );
 }

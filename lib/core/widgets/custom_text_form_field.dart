@@ -83,7 +83,7 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
       height: 48.h,
       decoration: BoxDecoration(
         color: widget.backgroundColor ?? AppColors.white,
-        borderRadius: BorderRadius.circular(widget.radiusOfContainer ?? 15.r),
+        borderRadius: BorderRadius.circular(widget.radiusOfContainer ?? 10.r),
         boxShadow: [
           BoxShadow(
             color: AppColors.shadowColor.withValues(

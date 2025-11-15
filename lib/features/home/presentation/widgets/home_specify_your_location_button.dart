@@ -6,7 +6,9 @@ class HomeSpecifyYourLocationButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        Routes.specifyYourLocationRoute.moveTo();
+      },
       side: BorderSide(
         color: Color.lerp(AppColors.borderColor, Colors.white, 0.68)!,
         width: 4.w,
