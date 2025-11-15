@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class ShowDetailsButton extends StatelessWidget {
   const ShowDetailsButton({super.key});

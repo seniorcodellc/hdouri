@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import '../../../../config/local_notification/local_notification.dart';
 import '../../data/model/request_model/login_model.dart';
 import '../../data/model/request_model/enter_phone_number_request_model.dart';

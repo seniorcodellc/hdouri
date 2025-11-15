@@ -1,5 +1,5 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/exports.dart';
 import 'package:dotted_border/dotted_border.dart';
 import '../../../../core/widgets/custom_appbar.dart';
 import '../../../../core/widgets/custom_scan_button.dart';

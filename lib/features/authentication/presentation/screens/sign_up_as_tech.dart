@@ -1,8 +1,8 @@
-import 'package:cherubini/features/authentication/data/model/request_model/tech_sign_up_model.dart';
-import 'package:cherubini/features/authentication/presentation/managers/auth_cubit.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/custom_login_signup_textfield_text.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/shared_enter_name_text_field.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/tech_answer_verfication_question.dart';
+import 'package:hdouri/features/authentication/data/model/request_model/tech_sign_up_model.dart';
+import 'package:hdouri/features/authentication/presentation/managers/auth_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/custom_login_signup_textfield_text.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/shared_enter_name_text_field.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/tech_answer_verfication_question.dart';
 import '../../../../core/widgets/custom_appbar.dart';
 import '../../../../core/widgets/custom_background.dart';
 import '../../../../exports.dart';

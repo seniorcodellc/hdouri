@@ -1,5 +1,5 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/exports.dart';
 import '../models/onboarding_model.dart';
 class OnboardingStatics {
   static List<OnboardingModel> onBoardingItems = [

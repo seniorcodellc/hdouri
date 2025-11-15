@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 
 class PermissionContext {
   late BuildContext context;

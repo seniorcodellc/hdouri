@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 
 Map<String, dynamic>? getArguments(BuildContext context) => (ModalRoute.of(context))!.settings.arguments as Map<String, dynamic>?;
 

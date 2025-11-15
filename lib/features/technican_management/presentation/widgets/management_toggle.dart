@@ -1,5 +1,5 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/technican_management/presentation/widgets/shared_toggle_item.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/technican_management/presentation/widgets/shared_toggle_item.dart';
 
 import '../../../../core/enums/status_enums.dart';
 

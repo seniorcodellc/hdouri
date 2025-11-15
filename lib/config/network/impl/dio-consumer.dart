@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 
 import '../../constants/app_constants.dart';
 import '../abstract/api_consumer.dart';

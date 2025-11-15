@@ -1,4 +1,4 @@
-import 'package:cherubini/features/scan/data/models/bar_code_model.dart';
+import 'package:hdouri/features/scan/data/models/bar_code_model.dart';
 
 class ScanBarCodeStatics{
   static List<BarCodeModel> barCodeList = [

@@ -1,6 +1,6 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/core/widgets/second_shared_custom_button.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/register_accept_body.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/core/widgets/second_shared_custom_button.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/register_accept_body.dart';
 
 import '../../../../exports.dart';
 

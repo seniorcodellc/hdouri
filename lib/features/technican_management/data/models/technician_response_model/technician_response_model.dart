@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class TechnicianResponseModel extends ListResponseModel<TechnicianModel> {
   TechnicianResponseModel.fromJson(super.json) : super.fromJson();

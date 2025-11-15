@@ -1,9 +1,9 @@
-import 'cherubini_app.dart';
+import 'hdouri_app.dart';
 import 'exports.dart';
 
 void main() async {
   await init;
-  runApp(CustomEasyLocalization(child: CherubiniApp()));
+  runApp(CustomEasyLocalization(child: HdouriApp()));
 }
 
 Future get init async {
@@ -25,6 +25,8 @@ Future get init async {
 class MyHttpOverrides extends HttpOverrides {
   @override
   HttpClient createHttpClient(SecurityContext? context) {
-    return super.createHttpClient(context)..badCertificateCallback = (X509Certificate cert, String host, int port) => true;
+    return super.createHttpClient(context)
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
   }
 }

@@ -1,4 +1,4 @@
-import 'package:cherubini/config/list_generic/data/models/list_model.dart';
+import 'package:hdouri/config/list_generic/data/models/list_model.dart';
 
 class MerchantListResponseModel extends  ListResponseModel<MerchantListModel> {
   MerchantListResponseModel.fromJson(super.json) : super.fromJson();

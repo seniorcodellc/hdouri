@@ -1,6 +1,6 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/on_boarding/presentation/managers/onboarding_manager_cubit.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/on_boarding/presentation/managers/onboarding_manager_cubit.dart';
 
 class OnboardingButtons extends StatelessWidget {
   const OnboardingButtons({super.key, required this.onTap, required this.text});

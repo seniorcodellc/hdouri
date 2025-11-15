@@ -1,5 +1,5 @@
 import 'package:badges/badges.dart' as badges;
-//import 'package:cherubini/features/authentication/presentation/managers/auth_cubit.dart';
+//import 'package:hdouri/features/authentication/presentation/managers/auth_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../config/widgets/custome_svg_image.dart';

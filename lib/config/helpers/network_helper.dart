@@ -1,6 +1,6 @@
 
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 
 Future<bool> checkConnection() async {

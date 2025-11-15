@@ -1,7 +1,7 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/apply_for_next_gift_row.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/points_summary_card_h_divider.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/shared_text_column.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/total_and_replaced_points_widget.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/apply_for_next_gift_row.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/points_summary_card_h_divider.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/shared_text_column.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/total_and_replaced_points_widget.dart';
 
 import '../../../../core/widgets/custom_divider.dart';
 import '../../../../exports.dart';

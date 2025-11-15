@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class CustomScanButton extends StatelessWidget {
   const CustomScanButton({super.key, required this.text, required this.icon});

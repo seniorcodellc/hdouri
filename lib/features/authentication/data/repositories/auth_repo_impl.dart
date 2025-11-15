@@ -1,4 +1,4 @@
-import 'package:cherubini/features/authentication/data/model/request_model/tech_sign_up_model.dart';
+import 'package:hdouri/features/authentication/data/model/request_model/tech_sign_up_model.dart';
 import '../../../../config/constants/app_prefs.dart';
 import '../../../../exports.dart';
 import '../../domain/repositories/auth_repo.dart';

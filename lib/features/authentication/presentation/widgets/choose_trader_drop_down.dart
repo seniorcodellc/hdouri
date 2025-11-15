@@ -1,5 +1,5 @@
-import 'package:cherubini/features/authentication/data/model/response_model/merchant_list_response_model.dart';
-import 'package:cherubini/features/authentication/presentation/managers/merchant_list_cubit.dart';
+import 'package:hdouri/features/authentication/data/model/response_model/merchant_list_response_model.dart';
+import 'package:hdouri/features/authentication/presentation/managers/merchant_list_cubit.dart';
 
 import '../../../../config/errors/widgets/error_text.dart';
 import '../../../../core/widgets/expansion_network_drop_down.dart';

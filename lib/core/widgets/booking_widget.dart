@@ -1,4 +1,4 @@
-import 'package:cherubini/core/widgets/custom_box.dart';
+import 'package:hdouri/core/widgets/custom_box.dart';
 
 import '../../exports.dart';
 

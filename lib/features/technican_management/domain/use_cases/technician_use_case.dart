@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import '../repositories/technician_repo.dart';
 
 class TechnicianUseCase extends ListUseCases {

@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/data/models/operations_log_model.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/operations_log_model.dart';
 
 class OperationsLogStatic {
   static List<OperationsLogModel> operationsLogList = [

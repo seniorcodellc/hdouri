@@ -1,4 +1,4 @@
-import 'package:cherubini/features/authentication/presentation/managers/auth_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/managers/auth_cubit.dart';
 
 import '../../../../exports.dart';
 

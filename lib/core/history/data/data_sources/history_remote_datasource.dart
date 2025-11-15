@@ -1,8 +1,8 @@
-import 'package:cherubini/config/list_generic/data/data_sources/list_remote_datasource.dart';
-import 'package:cherubini/config/network/constants/endpoinst.dart';
-import 'package:cherubini/config/network/impl/network_requests.dart';
-import 'package:cherubini/config/network/model/response_model.dart';
-import 'package:cherubini/core/history/data/models/history_response_model.dart';
+import 'package:hdouri/config/list_generic/data/data_sources/list_remote_datasource.dart';
+import 'package:hdouri/config/network/constants/endpoinst.dart';
+import 'package:hdouri/config/network/impl/network_requests.dart';
+import 'package:hdouri/config/network/model/response_model.dart';
+import 'package:hdouri/core/history/data/models/history_response_model.dart';
 
 abstract class HistoryRemoteDataSource extends ListRemoteDataSource {}
 

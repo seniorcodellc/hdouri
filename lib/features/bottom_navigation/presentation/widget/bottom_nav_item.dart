@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 import '../../data/models/bottom_nav_bar_model.dart';
 class BottomNavItem extends StatelessWidget {

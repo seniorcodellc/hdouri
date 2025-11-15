@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class WarrantyProduce extends StatelessWidget {
   const WarrantyProduce({super.key});

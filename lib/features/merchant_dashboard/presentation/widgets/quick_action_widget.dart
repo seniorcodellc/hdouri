@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import '../../data/statics/statics.dart';
 
 class QuickActionWidget extends StatelessWidget {

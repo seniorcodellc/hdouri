@@ -1,4 +1,4 @@
-import 'package:cherubini/config/network/model/response_model.dart';
+import 'package:hdouri/config/network/model/response_model.dart';
 
 class RegisterMerchantResponseModel extends ObjectResponseModel{
   RegisterMerchantResponseModel.fromJson(super.json) : super.fromJson();

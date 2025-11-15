@@ -1,5 +1,5 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/exports.dart';
 
 import '../../../tech_dashborad/presentation/widgets/entitlements_list.dart';
 import '../../../tech_dashborad/presentation/widgets/summary_points_card.dart';

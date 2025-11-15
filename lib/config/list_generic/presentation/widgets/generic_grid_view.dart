@@ -1,4 +1,4 @@
-import 'package:cherubini/config/widgets/status_message.dart';
+import 'package:hdouri/config/widgets/status_message.dart';
 import '../../../../exports.dart';
 
 class GenericGridListView<CubitType extends CubitListView<T>, T> extends StatelessWidget {

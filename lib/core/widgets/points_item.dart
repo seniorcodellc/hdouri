@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import 'package:hive/hive.dart';
 import '../../features/merchant_dashboard/data/models/points_model.dart';
 

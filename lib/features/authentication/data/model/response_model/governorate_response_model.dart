@@ -1,6 +1,6 @@
-import 'package:cherubini/config/list_generic/data/models/list_model.dart';
-import 'package:cherubini/config/models/item_response_model.dart';
-import 'package:cherubini/config/network/model/response_model.dart';
+import 'package:hdouri/config/list_generic/data/models/list_model.dart';
+import 'package:hdouri/config/models/item_response_model.dart';
+import 'package:hdouri/config/network/model/response_model.dart';
 
 class GovernorateResponseModel extends  ListResponseModel<GovernorateModel> {
   GovernorateResponseModel.fromJson(super.json) : super.fromJson();

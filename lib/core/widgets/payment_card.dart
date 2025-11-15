@@ -1,5 +1,5 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/exports.dart';
 import 'package:flutter_credit_card/flutter_credit_card.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 

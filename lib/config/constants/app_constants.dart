@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class AppConstants {

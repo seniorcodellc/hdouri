@@ -1,7 +1,7 @@
-import 'package:cherubini/config/errors/widgets/error_text.dart';
-import 'package:cherubini/core/widgets/expansion_network_drop_down.dart';
-import 'package:cherubini/features/authentication/data/model/response_model/governorate_response_model.dart';
-import 'package:cherubini/features/authentication/presentation/managers/governorates_cubit.dart';
+import 'package:hdouri/config/errors/widgets/error_text.dart';
+import 'package:hdouri/core/widgets/expansion_network_drop_down.dart';
+import 'package:hdouri/features/authentication/data/model/response_model/governorate_response_model.dart';
+import 'package:hdouri/features/authentication/presentation/managers/governorates_cubit.dart';
 
 import '../../../../exports.dart';
 

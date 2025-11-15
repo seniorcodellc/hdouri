@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/notifications_list_item.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/notifications_list_item.dart';
 
 import '../../../../exports.dart';
 

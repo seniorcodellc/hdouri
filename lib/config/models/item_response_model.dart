@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 
 import '../list_generic/data/models/list_model.dart';
 

@@ -1,6 +1,6 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/features/on_boarding/presentation/managers/onboarding_manager_cubit.dart';
-import 'package:cherubini/features/on_boarding/presentation/widgets/onboarding_buttons.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/features/on_boarding/presentation/managers/onboarding_manager_cubit.dart';
+import 'package:hdouri/features/on_boarding/presentation/widgets/onboarding_buttons.dart';
 import '../../../../exports.dart';
 import '../../data/static/static.dart';
 import '../widgets/onboarding_dots.dart';

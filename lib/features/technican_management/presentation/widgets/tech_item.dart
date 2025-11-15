@@ -1,8 +1,8 @@
-import 'package:cherubini/core/widgets/h_line.dart';
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/technican_management/data/models/technician_response_model/technician_response_model.dart';
-import 'package:cherubini/features/technican_management/presentation/manager/technician_cubit.dart';
-import 'package:cherubini/features/technican_management/presentation/widgets/show_details_button.dart';
+import 'package:hdouri/core/widgets/h_line.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/technican_management/data/models/technician_response_model/technician_response_model.dart';
+import 'package:hdouri/features/technican_management/presentation/manager/technician_cubit.dart';
+import 'package:hdouri/features/technican_management/presentation/widgets/show_details_button.dart';
 
 import '../../../../core/enums/status_enums.dart';
 import 'custom_info_widget.dart';

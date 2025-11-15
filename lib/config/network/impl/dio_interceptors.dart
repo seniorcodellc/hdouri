@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 
 import '../../../config/constants/app_prefs.dart';
 

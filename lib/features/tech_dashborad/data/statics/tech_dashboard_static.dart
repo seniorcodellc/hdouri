@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/data/models/tech_scan_model.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/tech_scan_model.dart';
 import '../../../../exports.dart';
 import '../../../merchant_dashboard/data/models/points_model.dart';
 

@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/shared_quick_procedures_item.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/shared_quick_procedures_item.dart';
 
 import '../../../../exports.dart';
 

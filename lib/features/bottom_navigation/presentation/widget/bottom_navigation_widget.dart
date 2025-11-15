@@ -1,4 +1,4 @@
-import 'package:cherubini/features/bottom_navigation/presentation/widget/bottom_nav_item.dart';
+import 'package:hdouri/features/bottom_navigation/presentation/widget/bottom_nav_item.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/models/title_icon_model.dart';

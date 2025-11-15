@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 import '../models/technician_response_model/technician_response_model.dart';
 

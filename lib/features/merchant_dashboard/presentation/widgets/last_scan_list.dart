@@ -1,10 +1,10 @@
-import 'package:cherubini/core/history/data/models/history_response_model.dart';
-import 'package:cherubini/core/history/presentation/manager/history_cubit.dart';
-import 'package:cherubini/features/merchant_dashboard/presentation/widgets/last_scan_shimmer.dart';
+import 'package:hdouri/core/history/data/models/history_response_model.dart';
+import 'package:hdouri/core/history/presentation/manager/history_cubit.dart';
+import 'package:hdouri/features/merchant_dashboard/presentation/widgets/last_scan_shimmer.dart';
 import 'package:flutter/material.dart';
 import '../../data/statics/statics.dart';
 import 'last_scan_item.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class LastScanList extends StatelessWidget {
   const LastScanList({super.key});

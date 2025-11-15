@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/data/models/replaced_choices_model.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/replaced_choices_model.dart';
 
 class ReplacedChoicesStatic {
   static List<ReplacedChoicesModel> replacedChoicesList = [

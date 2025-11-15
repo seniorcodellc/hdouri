@@ -1,5 +1,5 @@
 
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 import '../../data/models/config_response_model.dart';
 import '../../domain/use_cases/get_config_use_case.dart';

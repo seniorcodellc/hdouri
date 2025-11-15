@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 import '../../../tech_dashborad/data/statics/entitlements_static.dart';
 import 'merchant_entitlements_list_item.dart';

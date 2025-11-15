@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import '../../domain/usecase/onborading_usecases.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class OnboardingManagerCubit extends Cubit {
   OnBoardingUsesCases onBoardingUsesCases;

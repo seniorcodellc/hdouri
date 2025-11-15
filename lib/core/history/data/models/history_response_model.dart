@@ -1,4 +1,4 @@
-import 'package:cherubini/config/list_generic/data/models/list_model.dart';
+import 'package:hdouri/config/list_generic/data/models/list_model.dart';
 
 class HistoryResponseModel extends ListResponseModel<HistoryModel> {
   HistoryResponseModel.fromJson(super.json) : super.fromJson();

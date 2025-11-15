@@ -1,7 +1,7 @@
-import 'package:cherubini/features/authentication/data/model/request_model/tech_sign_up_model.dart';
-import 'package:cherubini/features/authentication/data/model/response_model/tech_sign_up_response_model.dart';
+import 'package:hdouri/features/authentication/data/model/request_model/tech_sign_up_model.dart';
+import 'package:hdouri/features/authentication/data/model/response_model/tech_sign_up_response_model.dart';
 
-import 'package:cherubini/features/authentication/data/model/request_model/register_merchant_model.dart';
+import 'package:hdouri/features/authentication/data/model/request_model/register_merchant_model.dart';
 
 import '../../../../exports.dart';
 import '../model/request_model/login_model.dart';

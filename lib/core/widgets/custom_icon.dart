@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
+import 'package:hdouri/exports.dart';
 
 class CustomIcon extends StatelessWidget {
   const CustomIcon({

@@ -1,6 +1,6 @@
 import '../../../../core/widgets/custom_text_form_field.dart';
 import '../../../../exports.dart';
-import 'package:cherubini/config/errors/widgets/error_text.dart';
+import 'package:hdouri/config/errors/widgets/error_text.dart';
 
 class SharedEmailTextField extends StatelessWidget {
   const SharedEmailTextField({super.key, required this.emailController});

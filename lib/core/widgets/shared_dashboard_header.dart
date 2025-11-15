@@ -1,5 +1,5 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/settings_gray_circle.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/settings_gray_circle.dart';
 
 import '../../features/authentication/presentation/managers/auth_cubit.dart';
 

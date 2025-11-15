@@ -1,7 +1,7 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/tech_dashborad/data/models/tech_scan_model.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/scan_blue_circle.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/shared_small_white_container.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/tech_scan_model.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/scan_blue_circle.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/shared_small_white_container.dart';
 
 class TechLastScanItem extends StatelessWidget {
   const TechLastScanItem({super.key, required this.model});

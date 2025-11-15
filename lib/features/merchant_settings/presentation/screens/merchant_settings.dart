@@ -1,7 +1,7 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/settings_header.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/settings_log_out.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/settings_notifications_list.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/settings_user_details_list.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/settings_header.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/settings_log_out.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/settings_notifications_list.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/settings_user_details_list.dart';
 
 import '../../../../core/widgets/custom_appbar.dart';
 import '../../../../core/widgets/custom_background.dart';

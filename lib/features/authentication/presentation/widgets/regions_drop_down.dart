@@ -1,4 +1,4 @@
-import 'package:cherubini/features/authentication/presentation/managers/cities_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/managers/cities_cubit.dart';
 
 import '../../../../config/errors/widgets/error_text.dart';
 import '../../../../config/widgets/expansion_drop_down.dart';

@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 import '../../../../core/enums/status_enums.dart';
 import '../../data/models/technician_response_model/technician_response_model.dart';

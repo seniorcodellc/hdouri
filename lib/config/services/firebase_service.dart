@@ -2,8 +2,8 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:cherubini/config/local_notification/local_notification.dart';
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/local_notification/local_notification.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../service_locator.dart';

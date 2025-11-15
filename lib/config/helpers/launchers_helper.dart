@@ -1,5 +1,5 @@
-import 'package:cherubini/config/extensions/extensions.dart';
-import 'package:cherubini/core/utils/app_strings.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
+import 'package:hdouri/core/utils/app_strings.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:whatsapp_unilink/whatsapp_unilink.dart';
 

@@ -1,5 +1,5 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/core/widgets/points_item.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/core/widgets/points_item.dart';
 import 'package:flutter/material.dart';
 import '../../data/statics/statics.dart';
 

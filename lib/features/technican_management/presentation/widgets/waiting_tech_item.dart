@@ -1,6 +1,6 @@
-import 'package:cherubini/core/widgets/h_line.dart';
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/technican_management/presentation/widgets/question_merchant_widget.dart';
+import 'package:hdouri/core/widgets/h_line.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/technican_management/presentation/widgets/question_merchant_widget.dart';
 
 import 'custom_info_widget.dart';
 

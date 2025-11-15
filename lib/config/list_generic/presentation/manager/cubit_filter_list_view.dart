@@ -1,4 +1,4 @@
-import 'package:cherubini/config/extensions/extensions.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
 
 import '../../data/models/filter_abstract.dart';
 import '../../data/models/state_model.dart';

@@ -1,8 +1,8 @@
-import 'package:cherubini/config/failures/failure.dart';
-import 'package:cherubini/config/helpers/network_helper.dart';
-import 'package:cherubini/config/network/model/response_model.dart';
-import 'package:cherubini/core/history/data/data_sources/history_remote_datasource.dart';
-import 'package:cherubini/core/history/domain/repositories/histroy_repo.dart';
+import 'package:hdouri/config/failures/failure.dart';
+import 'package:hdouri/config/helpers/network_helper.dart';
+import 'package:hdouri/config/network/model/response_model.dart';
+import 'package:hdouri/core/history/data/data_sources/history_remote_datasource.dart';
+import 'package:hdouri/core/history/domain/repositories/histroy_repo.dart';
 import 'package:dartz/dartz.dart';
 
 class HistoryRepoImpl extends HistoryRepo {

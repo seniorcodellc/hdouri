@@ -1,5 +1,5 @@
-import 'package:cherubini/config/data_generic/data/data_sources/generic_data_remote_data_source.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/config/data_generic/data/data_sources/generic_data_remote_data_source.dart';
+import 'package:hdouri/exports.dart';
 
 import '../models/profile_response_model.dart';
 

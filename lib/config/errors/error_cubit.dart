@@ -1,4 +1,7 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
+
+import '../../core/utils/app_strings.dart';
 
 enum Errors {
   PHONE_ERROR,

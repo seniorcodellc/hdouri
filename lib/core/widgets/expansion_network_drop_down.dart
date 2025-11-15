@@ -1,4 +1,4 @@
-import 'package:cherubini/features/authentication/data/model/response_model/governorate_response_model.dart';
+import 'package:hdouri/features/authentication/data/model/response_model/governorate_response_model.dart';
 
 import '../../exports.dart';
 

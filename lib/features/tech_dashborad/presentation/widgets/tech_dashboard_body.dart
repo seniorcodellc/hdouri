@@ -1,7 +1,7 @@
-import 'package:cherubini/core/widgets/shared_dashboard_last_scan_text_widget.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/tech_dashboard_scan_list.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/tech_points_list.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/tech_quick_procedures.dart';
+import 'package:hdouri/core/widgets/shared_dashboard_last_scan_text_widget.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/tech_dashboard_scan_list.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/tech_points_list.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/tech_quick_procedures.dart';
 
 import '../../../../exports.dart';
 

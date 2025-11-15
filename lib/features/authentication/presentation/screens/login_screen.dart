@@ -1,7 +1,7 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/features/authentication/data/model/request_model/login_model.dart';
-import 'package:cherubini/features/authentication/presentation/managers/auth_cubit.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/custom_login_signup_textfield_text.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/features/authentication/data/model/request_model/login_model.dart';
+import 'package:hdouri/features/authentication/presentation/managers/auth_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/custom_login_signup_textfield_text.dart';
 import '../../../../exports.dart';
 import '../widgets/log_in_have_no_account_row.dart';
 import '../widgets/log_in_welcome_body.dart';

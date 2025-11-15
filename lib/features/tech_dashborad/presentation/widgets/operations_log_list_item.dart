@@ -1,9 +1,9 @@
-import 'package:cherubini/core/widgets/custom_divider.dart';
-import 'package:cherubini/core/widgets/second_shared_custom_button.dart';
-import 'package:cherubini/features/tech_dashborad/data/models/operations_log_model.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/operations_log_card_header.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/operations_log_card_prods_header.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/operations_log_card_prods_list.dart';
+import 'package:hdouri/core/widgets/custom_divider.dart';
+import 'package:hdouri/core/widgets/second_shared_custom_button.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/operations_log_model.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/operations_log_card_header.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/operations_log_card_prods_header.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/operations_log_card_prods_list.dart';
 
 import '../../../../exports.dart';
 

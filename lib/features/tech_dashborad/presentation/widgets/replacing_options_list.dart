@@ -1,6 +1,6 @@
-import 'package:cherubini/features/tech_dashborad/data/models/replaced_choices_model.dart';
-import 'package:cherubini/features/tech_dashborad/data/statics/replaced_choices_static.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/replaced_choices_list_item.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/replaced_choices_model.dart';
+import 'package:hdouri/features/tech_dashborad/data/statics/replaced_choices_static.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/replaced_choices_list_item.dart';
 
 import '../../../../exports.dart';
 

@@ -1,5 +1,5 @@
 // core/widgets/bar_code_row.dart
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 class BarCodeRow extends StatelessWidget {
   final String title;

@@ -1,6 +1,6 @@
-import "package:cherubini/core/history/presentation/manager/history_cubit.dart";
-import "package:cherubini/features/bottom_navigation/presentation/managers/bottom_nav_operation_cubit.dart";
-import "package:cherubini/features/on_boarding/presentation/managers/onboarding_manager_cubit.dart";
+import "package:hdouri/core/history/presentation/manager/history_cubit.dart";
+import "package:hdouri/features/bottom_navigation/presentation/managers/bottom_nav_operation_cubit.dart";
+import "package:hdouri/features/on_boarding/presentation/managers/onboarding_manager_cubit.dart";
 
 import "core/profile/domain/use_cases/profile_use_cases.dart";
 import "core/profile/presentation/manager/profile_cubit.dart";

@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/shared_text_column.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/shared_text_column.dart';
 
 import '../../../../exports.dart';
 

@@ -1,7 +1,7 @@
-import 'package:cherubini/features/authentication/presentation/managers/cities_cubit.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/regions_drop_down.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/custom_login_signup_textfield_text.dart';
-import 'package:cherubini/features/authentication/presentation/widgets/government_drop_down.dart';
+import 'package:hdouri/features/authentication/presentation/managers/cities_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/regions_drop_down.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/custom_login_signup_textfield_text.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/government_drop_down.dart';
 import '../../../../exports.dart';
 import '../../data/model/response_model/governorate_response_model.dart';
 

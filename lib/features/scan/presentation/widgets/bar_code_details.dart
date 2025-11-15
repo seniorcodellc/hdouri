@@ -1,6 +1,6 @@
-import 'package:cherubini/core/widgets/h_line.dart';
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/scan/presentation/widgets/bar_code_row.dart';
+import 'package:hdouri/core/widgets/h_line.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/scan/presentation/widgets/bar_code_row.dart';
 
 class BarCodeDetails extends StatelessWidget {
   const BarCodeDetails({super.key, required this.isSuccess});

@@ -1,5 +1,5 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/shared_custom_divider_vertical.dart';
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/shared_operations_log_card_column.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/shared_custom_divider_vertical.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/shared_operations_log_card_column.dart';
 
 import '../../../../core/widgets/custom_divider.dart';
 import '../../../../exports.dart';

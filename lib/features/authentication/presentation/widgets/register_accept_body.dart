@@ -1,4 +1,4 @@
-import 'package:cherubini/features/authentication/presentation/widgets/register_accept_waiting.dart';
+import 'package:hdouri/features/authentication/presentation/widgets/register_accept_waiting.dart';
 
 import '../../../../exports.dart';
 

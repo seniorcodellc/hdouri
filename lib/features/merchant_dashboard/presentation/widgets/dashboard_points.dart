@@ -1,12 +1,12 @@
-import 'package:cherubini/config/extensions/extensions.dart';
-import 'package:cherubini/config/utils/size_utils.dart';
-import 'package:cherubini/core/profile/data/models/profile_response_model.dart';
-import 'package:cherubini/core/utils/app_colors.dart';
-import 'package:cherubini/core/utils/app_style.dart';
-import 'package:cherubini/core/widgets/points_item.dart';
-import 'package:cherubini/features/merchant_dashboard/data/models/points_model.dart';
-import 'package:cherubini/features/merchant_dashboard/presentation/widgets/points_list.dart';
-import 'package:cherubini/features/merchant_dashboard/presentation/widgets/quick_action_widget.dart';
+import 'package:hdouri/config/extensions/extensions.dart';
+import 'package:hdouri/config/utils/size_utils.dart';
+import 'package:hdouri/core/profile/data/models/profile_response_model.dart';
+import 'package:hdouri/core/utils/app_colors.dart';
+import 'package:hdouri/core/utils/app_style.dart';
+import 'package:hdouri/core/widgets/points_item.dart';
+import 'package:hdouri/features/merchant_dashboard/data/models/points_model.dart';
+import 'package:hdouri/features/merchant_dashboard/presentation/widgets/points_list.dart';
+import 'package:hdouri/features/merchant_dashboard/presentation/widgets/quick_action_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

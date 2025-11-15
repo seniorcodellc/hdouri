@@ -1,8 +1,8 @@
-import 'package:cherubini/config/data_generic/presentation/widgets/generic_data_view.dart';
-import 'package:cherubini/core/history/presentation/manager/history_cubit.dart';
-import 'package:cherubini/core/profile/data/models/profile_response_model.dart';
-import 'package:cherubini/core/profile/presentation/manager/profile_cubit.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/config/data_generic/presentation/widgets/generic_data_view.dart';
+import 'package:hdouri/core/history/presentation/manager/history_cubit.dart';
+import 'package:hdouri/core/profile/data/models/profile_response_model.dart';
+import 'package:hdouri/core/profile/presentation/manager/profile_cubit.dart';
+import 'package:hdouri/exports.dart';
 import '../../../../core/history/data/models/history_response_model.dart';
 import '../../../../core/widgets/custom_appbar.dart';
 import '../../../../core/widgets/custom_divider.dart';

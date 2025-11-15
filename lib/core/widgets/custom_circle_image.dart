@@ -1,4 +1,4 @@
-import 'package:cherubini/core/widgets/custom_icon.dart';
+import 'package:hdouri/core/widgets/custom_icon.dart';
 import '../../exports.dart';
 
 class CustomCircleImage extends StatelessWidget {

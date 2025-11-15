@@ -1,6 +1,6 @@
 import 'package:permission_handler/permission_handler.dart';
-import 'package:cherubini/config/local_notification/local_notification.dart';
-import 'package:cherubini/config/permission/permission_dialog.dart';
+import 'package:hdouri/config/local_notification/local_notification.dart';
+import 'package:hdouri/config/permission/permission_dialog.dart';
 
 import '../../exports.dart';
 

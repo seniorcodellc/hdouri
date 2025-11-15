@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 class CustomInfoWidget extends StatelessWidget {
   const CustomInfoWidget({super.key, required this.asset, required this.info});
   final String asset;

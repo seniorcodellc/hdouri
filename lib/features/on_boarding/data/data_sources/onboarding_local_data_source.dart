@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import '../../../../config/constants/app_prefs.dart';
 
 abstract class OnBoardingLocalDataSource {

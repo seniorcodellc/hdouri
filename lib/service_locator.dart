@@ -1,8 +1,8 @@
-import 'package:cherubini/core/profile/presentation/manager/profile_cubit.dart';
-import 'package:cherubini/features/bottom_navigation/presentation/managers/bottom_nav_operation_cubit.dart';
-import 'package:cherubini/features/technican_management/data/data_sources/technician_remote_data_sources.dart';
-import 'package:cherubini/features/technican_management/domain/repositories/technician_repo.dart';
-import 'package:cherubini/features/technican_management/domain/use_cases/technician_use_case.dart';
+import 'package:hdouri/core/profile/presentation/manager/profile_cubit.dart';
+import 'package:hdouri/features/bottom_navigation/presentation/managers/bottom_nav_operation_cubit.dart';
+import 'package:hdouri/features/technican_management/data/data_sources/technician_remote_data_sources.dart';
+import 'package:hdouri/features/technican_management/domain/repositories/technician_repo.dart';
+import 'package:hdouri/features/technican_management/domain/use_cases/technician_use_case.dart';
 import 'package:get_it/get_it.dart';
 import 'core/history/data/data_sources/history_remote_datasource.dart';
 import 'core/history/data/repositories/history_repo_impl.dart';

@@ -1,5 +1,5 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/technican_management/presentation/widgets/waiting_tech_item.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/technican_management/presentation/widgets/waiting_tech_item.dart';
 
 import '../../data/models/technician_response_model/technician_response_model.dart';
 import '../manager/technician_cubit.dart';

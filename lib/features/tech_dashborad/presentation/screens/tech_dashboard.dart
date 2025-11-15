@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/tech_dashboard_body.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/tech_dashboard_body.dart';
 import '../../../../exports.dart';
 import '../../../../core/widgets/shared_dashboard_header.dart';
 

@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import 'package:dotted_border/dotted_border.dart';
 
 class SharedScanContainer extends StatelessWidget {

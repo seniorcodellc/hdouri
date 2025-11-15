@@ -1,5 +1,5 @@
-import 'package:cherubini/core/widgets/shimmer_widget.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/widgets/shimmer_widget.dart';
+import 'package:hdouri/exports.dart';
 
 class OperationDetailsItemShimmer extends StatelessWidget {
   const OperationDetailsItemShimmer({super.key});

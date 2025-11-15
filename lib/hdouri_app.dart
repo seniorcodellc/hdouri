@@ -5,14 +5,14 @@ import 'package:device_preview/device_preview.dart';
 import 'package:country_picker/country_picker.dart';
 import 'exports.dart';
 
-class CherubiniApp extends StatefulWidget {
-  const CherubiniApp({super.key});
+class HdouriApp extends StatefulWidget {
+  const HdouriApp({super.key});
 
   @override
-  State<CherubiniApp> createState() => _CherubiniAppState();
+  State<HdouriApp> createState() => _HdouriAppState();
 }
 
-class _CherubiniAppState extends State<CherubiniApp> {
+class _HdouriAppState extends State<HdouriApp> {
   late StreamSubscription<List<ConnectivityResult>> _connectivitySubscription;
   bool _hasInternet = true;
 

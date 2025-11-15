@@ -1,5 +1,5 @@
-import 'package:cherubini/core/widgets/custom_background.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
+import 'package:hdouri/exports.dart';
 import '../../../../core/widgets/custom_appbar.dart';
 import '../../data/models/technician_response_model/technician_response_model.dart';
 import '../manager/technician_cubit.dart';

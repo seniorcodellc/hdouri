@@ -1,5 +1,5 @@
-import 'package:cherubini/core/profile/domain/repositories/profile_repo.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/profile/domain/repositories/profile_repo.dart';
+import 'package:hdouri/exports.dart';
 import '../data_sources/profile_remote_data_source.dart';
 
 class ProfileRepoImpl extends ProfileRepo {

@@ -1,5 +1,5 @@
-import 'package:cherubini/core/history/data/models/history_response_model.dart';
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/core/history/data/models/history_response_model.dart';
+import 'package:hdouri/exports.dart';
 import '../../data/models/scan_model.dart';
 class LastScanItem extends StatelessWidget {
   const LastScanItem({super.key, required this.history});

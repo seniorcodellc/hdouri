@@ -1,5 +1,5 @@
 
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 
 import '../../domain/repositories/get_config_repo.dart';
 import '../data_sources/get_config_local_data_source.dart';

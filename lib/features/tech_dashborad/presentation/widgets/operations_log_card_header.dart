@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/presentation/widgets/scan_blue_circle.dart';
+import 'package:hdouri/features/tech_dashborad/presentation/widgets/scan_blue_circle.dart';
 
 import '../../../../exports.dart';
 import '../../data/models/operations_log_model.dart';

@@ -1,5 +1,5 @@
-import 'package:cherubini/config/widgets/failed_widget.dart';
-import 'package:cherubini/config/widgets/status_message.dart';
+import 'package:hdouri/config/widgets/failed_widget.dart';
+import 'package:hdouri/config/widgets/status_message.dart';
 
 import '../../../../exports.dart';
 

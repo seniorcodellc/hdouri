@@ -1,6 +1,6 @@
-import 'package:cherubini/config/constants/localization_constants.dart';
+import 'package:hdouri/config/constants/localization_constants.dart';
 
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 String getTimeString(int? time) {
   if (time.isNotNull) {
     // Calculate the number of hours.

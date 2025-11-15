@@ -1,4 +1,4 @@
-import 'package:cherubini/config/errors/widgets/error_text.dart';
+import 'package:hdouri/config/errors/widgets/error_text.dart';
 
 import '../../../../core/widgets/custom_text_form_field.dart';
 import '../../../../exports.dart';

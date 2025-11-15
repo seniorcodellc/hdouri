@@ -1,5 +1,5 @@
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/authentication/data/model/response_model/merchant_list_response_model.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/authentication/data/model/response_model/merchant_list_response_model.dart';
 abstract class MerchantListRemoteDataSource extends ListRemoteDataSource{
 
 }

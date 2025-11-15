@@ -1,6 +1,6 @@
 // lib/features/warranty/presentation/widgets/custom_product_details_warranty.dart
-import 'package:cherubini/exports.dart';
-import 'package:cherubini/features/warranty/presentation/widgets/warranty_custom_text_field.dart';
+import 'package:hdouri/exports.dart';
+import 'package:hdouri/features/warranty/presentation/widgets/warranty_custom_text_field.dart';
 
 class CustomProductDetailsWarranty extends StatelessWidget {
   final int index;

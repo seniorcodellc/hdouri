@@ -1,6 +1,6 @@
 
 
-import 'package:cherubini/core/widgets/custom_background.dart';
+import 'package:hdouri/core/widgets/custom_background.dart';
 
 import '../../exports.dart';
 

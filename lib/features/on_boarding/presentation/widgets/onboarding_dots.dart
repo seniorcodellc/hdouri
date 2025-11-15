@@ -1,4 +1,4 @@
-import 'package:cherubini/exports.dart';
+import 'package:hdouri/exports.dart';
 import '../../../../exports.dart';
 
 class OnboardingDots extends StatelessWidget {

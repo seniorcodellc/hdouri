@@ -1,4 +1,4 @@
-import 'package:cherubini/features/tech_dashborad/data/models/tech_settings_model.dart';
+import 'package:hdouri/features/tech_dashborad/data/models/tech_settings_model.dart';
 
 import '../../../../exports.dart';
 

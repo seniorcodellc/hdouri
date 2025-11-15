@@ -1,4 +1,4 @@
-import 'package:cherubini/config/list_generic/domain/repositories/list_repo.dart';
+import 'package:hdouri/config/list_generic/domain/repositories/list_repo.dart';
 
 abstract class HistoryRepo extends ListRepo{
 
