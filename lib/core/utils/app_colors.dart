@@ -5,6 +5,17 @@ class AppColors {
   static final AppColors _instance = AppColors._();
   factory AppColors() => _instance;
 
+  static const Color primaryColor = Color(0XFF008375);
+  static const Color secondColor = Color(0XFFB3A38B);
+  static const Color accentColor = Color(0XFFFF8D28);
+  static const Color bgColor = Color(0XFFF7FFFE);
+  static const Color darkGray = Color(0XFF7E7A7D);
+  static const Color lightGray = Color(0XFF8C8C8C);
+  static const Color borderColor = Color(0XFFB3A38B);
+  static const Color fingerPrintButtonBg = Color(0XFFF0F0F0);
+  static const Color fingerPrintButtonItem = Color(0XFFFAFAFA);
+  static const Color lightGreen = Color(0XFFCDD8BF);
+
   static const Color titleGray = Color(0xFF333333);
   static const Color unselectedTab = Color(0xFF9DB2CE);
   static const Color whiteLight = Color(0XFFFEFEFF);
@@ -27,14 +38,11 @@ class AppColors {
   static const Color grey = Color(0xFFAAAAAA);
   static const Color dots = Color(0xFFD1D5DC);
   static const descriptionColor = Color(0xFF606268);
-  static const Color borderColor = Color(0xFFE2E8F0);
   static const Color borderColor2 = Color(0xFF9e9e9e);
-  static const Color primaryColor = Color(0XFF0D47A1);
   static const Color secondaryColor = Color(0XFF1976D2);
   static const Color gradientColorEnd = Color(0XFF3495E9);
   static const Color gradientColorStart = Color(0XFF0F50AA);
   static const Color statusColor = Color(0XFF277DD4);
-  static const Color accentColor = Color(0XFF42A5F5);
   static const Color mutedBlue = Color(0XFFE3F2FD);
   static const Color subTitleColor = Color(0XFF555555);
   static const Color circleBgBlue = Color(0XFF1A66FE);
@@ -42,7 +50,6 @@ class AppColors {
   static const Color circleBgAqua = Color(0XFF00A4C8);
   static const Color white = Color(0XFFFFFFFF);
   static const Color black = Color(0XFF000000);
-  static const Color bgColor = Color(0XFFF5F7FA);
   static const Color grayHint = Color(0XFF8C8C8C);
   static const Color inactiveButtonBg = Color(0XFFE4E5E5);
   static const Color transparent = Colors.transparent;
