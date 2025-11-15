@@ -18,7 +18,7 @@ class _ExpandLoginButtonsState extends State<ExpandLoginButton> {
     return Column(
       children: [
         CustomButton(
-          text: AppStrings.enterAccount,
+          text: "",
           onPressed: _toggle,
           backgroundColor: AppColors.primaryColor,
           borderColor: AppColors.primaryColor,
@@ -36,7 +36,7 @@ class _ExpandLoginButtonsState extends State<ExpandLoginButton> {
                     child: Column(
                       children: [
                         CustomButton(
-                          text: AppStrings.oneLogin,
+                          text: "",
                           onPressed: () {},
                           backgroundColor: AppColors.bgColor,
                           borderColor: AppColors.primaryColor,
@@ -44,7 +44,7 @@ class _ExpandLoginButtonsState extends State<ExpandLoginButton> {
                         ),
                         16.vs,
                         CustomButton(
-                          text: AppStrings.nafazLogin,
+                          text: "",
                           onPressed: () {},
                           backgroundColor: AppColors.bgColor,
                           borderColor: AppColors.primaryColor,
@@ -52,7 +52,7 @@ class _ExpandLoginButtonsState extends State<ExpandLoginButton> {
                         ),
                         16.vs,
                         CustomButton(
-                          text: AppStrings.emailLogin,
+                          text: "",
                           onPressed: () {},
                           backgroundColor: AppColors.bgColor,
                           borderColor: AppColors.primaryColor,

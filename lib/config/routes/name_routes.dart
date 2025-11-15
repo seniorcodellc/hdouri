@@ -1,7 +1,6 @@
 class Routes {
-  static const String splashScreen = "/";
-  static const String secondSplashScreen = "/secondSplashScreen";
-  static const String selectLanguageRoute = "/selectLanguageRoute";
+  // static const String splashScreen = "/";
+  static const String homeRoute = "/selectLanguageRoute";
   static const String onBoardingRoute = "/onBoarding";
   static const String dashboardRoute = "/dashboard";
   static const String merchantDashboardRoute = "/merchantDashboard";
@@ -9,7 +8,7 @@ class Routes {
   static const String merchantSettings = "/merchantSettings";
   static const String merchantPointsSummary = "/merchantPointsSummary";
   static const String operationsLog = "/operationsLog";
-  static const String loginRoute = "/login";
+  static const String loginRoute = "/";
   static const String registerTechRoute = "/registerTech";
   static const String registerAccept = "/registerAccept";
   static const String registerTraderRoute = "/registerTrader";

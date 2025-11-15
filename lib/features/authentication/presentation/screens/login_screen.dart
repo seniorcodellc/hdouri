@@ -22,7 +22,9 @@ class LoginScreen extends StatelessWidget {
             24.vs,
             CustomButton(
               text: 'الدعم الفني',
-              onPressed: () {},
+              onPressed: () {
+                Routes.homeRoute.moveTo();
+              },
               backgroundColor: AppColors.secondColor,
               borderColor: AppColors.secondColor,
               borderRadius: 10.r,

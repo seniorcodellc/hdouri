@@ -42,12 +42,12 @@ class CustomElevatedButton extends StatelessWidget {
       margin: margin,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          fixedSize: Size(163, 40),
-          backgroundColor: color ?? AppColors.white,
+          fixedSize: Size(width ?? 162.w, height ?? 40.h),
+          backgroundColor: color ?? AppColors.primaryColor,
           elevation: elevation,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-            side: BorderSide(color: AppColors.accentColor, width: 0.5),
+            borderRadius: BorderRadius.circular(25.r),
+            side: side,
           ),
           // padding: padding ?? EdgeInsets.symmetric(vertical: 13.h),
         ),
@@ -57,13 +57,13 @@ class CustomElevatedButton extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             if (leftIcon.isNotNull) leftIcon!,
-            if (rightIcon.isNotNull) 10.hs,
+            if (leftIcon.isNotNull) 16.hs,
             Text(
               text,
               textAlign: TextAlign.center,
-              style:
-                  style ?? getRegularTextStyle(color: AppColors.primaryColor),
+              style: style ?? getRegularTextStyle(color: AppColors.white),
             ),
+            if (rightIcon.isNotNull) 32.hs,
             if (rightIcon.isNotNull) rightIcon!,
           ],
         ),

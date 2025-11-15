@@ -1,7 +1,7 @@
 import 'package:hdouri/features/authentication/presentation/managers/cities_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/governorates_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/merchant_list_cubit.dart';
-
+import 'package:hdouri/features/home/presentation/screens/home_screen.dart';
 
 import 'package:nested/nested.dart';
 
@@ -26,34 +26,8 @@ class RouteGenerator {
           ],
           child: LoginScreen(),
         );
-      // case Routes.registerTechRoute:
-      //   return buildPageRoute<T>(
-      //     child: SignUpAsTech(),
-      //     providers: [
-      //       BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
-      //       BlocProvider<MerchantListCubit>(
-      //         create: (context) => MerchantListCubit(
-      //           merchantListUseCases: ServiceLocator()
-      //               .getIt<MerchantListUseCases>(),
-      //         )..getList(),
-      //       ),
-      //     ],
-      //   );
-      // case Routes.registerTraderRoute:
-      //   return buildPageRoute<T>(
-      //     providers: [
-      //       BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
-      //       BlocProvider<GovernoratesCubit>(
-      //         create: (context) => GovernoratesCubit(
-      //           governoratesUseCases: ServiceLocator()
-      //               .getIt<GovernoratesUseCases>(),
-      //         )..getList(),
-      //       ),
-      //       BlocProvider<CitiesCubit>(create: (context) => CitiesCubit()),
-      //     ],
-      //     child: SignUpAsTrader(),
-      //   );
-
+      case Routes.homeRoute:
+        return buildPageRoute<T>(child: HomeScreen());
 
       /*
         case Routes.followUps:
