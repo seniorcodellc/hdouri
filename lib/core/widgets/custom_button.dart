@@ -1,3 +1,4 @@
+
 import '../../exports.dart';
 
 class CustomButton extends StatelessWidget {
@@ -35,29 +36,25 @@ class CustomButton extends StatelessWidget {
       highlightElevation: 0,
       onPressed: onPressed,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(borderRadius?.r ?? 10.r),
+        borderRadius: BorderRadius.circular(borderRadius?.r ?? 20.r),
         side: BorderSide(color: borderColor ?? AppColors.primaryColor),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           svgIconPath != null ? 5.hs : 0.hs,
-          svgIconPath != null
-              ? SvgPicture.asset(
-                  svgIconPath!,
-                  width: 20.w,
-                  height: 20.w,
-                  color: textColor ?? AppColors.white,
-                )
-              : const SizedBox(width: 0),
-          svgIconPath != null
-              ? SizedBox(width: 16.w)
-              : const SizedBox(width: 0),
+          svgIconPath != null ? SvgPicture.asset(
+            svgIconPath!,
+            width: 20.w,
+            height: 20.w,
+            color: textColor ?? AppColors.white,
+          ) : const SizedBox(width: 0),
+          svgIconPath != null ? SizedBox(width: 10.w) : const SizedBox(width: 0),
           Center(
             child: Text(
               text,
               style:
-                  style ??
+              style ??
                   getSemiBoldTextStyle(
                     fontSize: 16,
                     color: textColor ?? AppColors.white,

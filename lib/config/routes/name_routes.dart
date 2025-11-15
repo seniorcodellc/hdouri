@@ -1,4 +1,6 @@
 class Routes {
+  static const String secondSplashScreen = "/secondSplashScreen";
+  static const String selectLanguageRoute = "/selectLanguageRoute";
   // static const String splashScreen = "/";
   static const String homeRoute = "/selectLanguageRoute";
   static const String specifyYourLocationRoute = "/specifyYourLocation";
@@ -11,6 +13,9 @@ class Routes {
   static const String merchantPointsSummary = "/merchantPointsSummary";
   static const String operationsLog = "/operationsLog";
   static const String loginRoute = "/";
+  static const String loginEmailRoute = "/loginEmail";
+  static const String loginNafazRoute = "/loginNafazRoute";
+  static const String confirmRequest = "/confirmRequest";
   static const String registerTechRoute = "/registerTech";
   static const String registerAccept = "/registerAccept";
   static const String registerTraderRoute = "/registerTrader";

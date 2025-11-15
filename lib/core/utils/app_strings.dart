@@ -193,53 +193,29 @@ class AppStrings {
   static const String appName = "appName";
 
   /// **************************** Authentication ************************************
-  static const String loginAr = "تسجيل الدخول";
-  static const String logInWelcomeAr = "مرحباً بك في برنامج نقاط الولاء";
-  static const String emailAr = "البريد الإلكترروني";
-  static const String passwordAr = "كلمة المرور";
-  static const String confirmPasswordAr = "تأكيد كلمة المرور";
-  static const String passwordHintAr = "*************";
-  static const String forgetPasswordAr = "نسيت كلمة المرور؟";
-  static const String haveNoAccountAr = "ليس لديك حساب؟";
-  static const String signUpAsMerchantAr = "تسجيل تاجر";
-  static const String signUpAsTechAr = "تسجيل فني";
-  static const String signUpAsNewTechAr = "تسجيل فني جديد";
-  static const String signUpAsNewMerchantAr = "تسجيل تاجر جديد";
-  static const String fullNameHintAr = "أدخل اسمك بالكامل";
-  static const String companyNameHintAr = "اسم الشركة";
-  static const String companyNameAr = "اسم الشركة";
-  static const String addressAr = "العنوان";
-  static const String addressHintAr = "المدينة , الحي , الشارع";
-  static const String fullNameAr = "الاسم الكامل";
-  static const String phoneNumAr = "رقم الجوال";
-  static const String phoneNumHintAr = "568912345";
-  static const String emailHintAr = "example1@gmail.com";
-  static const String chooseMerchantAr = "اختر التاجر";
-  static const String merchantOneAr = "تاجر رقم 1";
-  static const String merchantTwoAr = "تاجر رقم 2";
-  static const String merchantThreeAr = "تاجر رقم 3";
-  static const String merchantCheckAr = "سؤال التحقق من التاجر";
-  static const String merchantCheckHintAr = "أجب على سؤال  التحقق";
-  static const String createAccountButtonAr = "إنشاء حساب";
-  static const String returnToSignUpButtonAr = "العودة لتسجيل الدخول";
-  static const String waitingForAcceptRegisterTextAr =
-      "في انتظار موافقة المسؤول";
-  static const String techInstructionAr =
-      "سيتم مراجعة طلبك من قبل التاجر قبل الموافقة";
-  static const String merchantInstruction1Ar =
-      "بالتسجيل، أنت توافق على الشروط والأحكام";
-  static const String merchantInstruction2Ar = "وسياسة الخصوصية";
-  static const String waitingStatement1Ar =
-      "تم إرسال طلب التسجيل الخاص بك. سيتم";
-  static const String waitingStatement2Ar = " مراجعته من قبل المسؤول وسيتم";
-  static const String waitingStatement3Ar = " إعلامك عند الموافقة.";
-  static const String governmentAr = "المحافظة ";
-  static const String placeAr = "المنطقة";
-  static const String governmentHintAr = 'أختر المحافظة';
-  static const String placeHintAr = 'أختر المنطقة';
-  static const String acceptMessage1Ar =
-      "سيتم إرسال إشعار عبر البريد الإلكتروني\n والرسائل القصيرة عند الموافقة على";
-  static const String acceptMessage2Ar = " حسابك";
+  static const String enterAccount = "دخول حسابي";
+  static const String login = "تسجيل الدخول";
+  static const String oneLogin = "تسجيل دخول عبر الدخول الموحد";
+  static const String nafazLogin = "تسجيل دخول عبر النفاذ الوطني";
+  static const String emailLogin = "دخول عبر البريد الالكترونى وكلمة المرور";
+  static const String support = "الدعم الفني";
+  static const String email = "البريد الإلكترونى";
+  static const String password = "كلمة المرور";
+  static const String nafaz = "نفاذ";
+  static const String nafazNation = "النفاذ الوطني الموحد";
+  static const String welcomeNafaz = "مرحبا بك عميل وزارة التعليم - حضوري";
+  static const String enterByNafaz = "الدخول عبر تطبيق نفاذ";
+  static const String idNumber = "رقم الهوية";
+  static const String orUsing = "أو باستخدام";
+  static const String emailAndPassword = "اسم المستخدم وكلمة المرور";
+  static const String connectUs = "تواصل معنا";
+  static const String aboutNafaz = "عن نفاذ";
+  static const String termsAndConditionsNafaz = "الشروط والأحكام";
+  static const String cancel = "إلغاء";
+  static const String openNafaz = "الرجاء فتح تطبيق نفاذ وتأكيد الطلب بإختيار الرقم الظاهر";
+  static const String confirmTransfer = "تأكيد الانتقال";
+  static const String pressMove = "يرجى الضغط على (انتقال) \nلاستكمال العملية أو (إلغاء) لإلغائها";
+  static const String move = "انتقال";
 
   /// **************************** Splash ************************************
   ///
@@ -483,7 +459,7 @@ class AppStrings {
   static const String confirmPassword = 'confirmPassword';
   static const String useRegex = 'useRegex';
   static const String bothPasswordMustMatch = 'bothPasswordMustMatch';
-  static const String password = 'password';
+  //static const String password = 'password';
   static const String rememberMe = 'rememberMe';
   static const String applyForALoan = 'applyForALoan';
   static const String loanRepayment = 'loanRepayment';
@@ -529,7 +505,7 @@ class AppStrings {
   static const String logout = "logout";
   static const String logoutFrommazadat = "logoutFrommazadat";
   static const String logoutFrommazadatWarning = "logoutFrommazadatWarning";
-  static const String cancel = "cancel";
+  //static const String cancel = "cancel";
 
   /// **************************** Account Info screens ********************************************
   static const String saveButtonText = "saveButtonText";

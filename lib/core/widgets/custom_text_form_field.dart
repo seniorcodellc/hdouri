@@ -31,6 +31,7 @@ class CustomTextFormField extends StatefulWidget {
     this.backgroundColor,
     this.prefixIconConstraints,
     this.shadow,
+    this.borderColor,
   });
   final String? hintText;
   final TextEditingController? controller;
@@ -61,6 +62,7 @@ class CustomTextFormField extends StatefulWidget {
   TextDirection? textDirection;
   BoxConstraints? prefixIconConstraints;
   final Color? backgroundColor;
+  final Color? borderColor;
   final double? shadow;
   List<TextInputFormatter>? inputFormatters;
   @override
@@ -68,6 +70,7 @@ class CustomTextFormField extends StatefulWidget {
 }
 
 class _CustomTextFormFieldState extends State<CustomTextFormField> {
+
   @override
   void initState() {
     if (widget.isPassword.isTrue) {
@@ -83,7 +86,8 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
       height: 48.h,
       decoration: BoxDecoration(
         color: widget.backgroundColor ?? AppColors.white,
-        borderRadius: BorderRadius.circular(widget.radiusOfContainer ?? 10.r),
+        borderRadius: BorderRadius.circular(widget.radiusOfContainer ?? 15.r),
+        border: Border.all(color: widget.borderColor??AppColors.white),
         boxShadow: [
           BoxShadow(
             color: AppColors.shadowColor.withValues(

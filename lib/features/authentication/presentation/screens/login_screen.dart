@@ -4,10 +4,6 @@ import '../widgets/expand_login_button.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
-  // final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-  // TextEditingController emailController = TextEditingController();
-  // TextEditingController passwordController = TextEditingController();
-  @override
   @override
   Widget build(BuildContext context) {
     return CustomBackground(
@@ -16,15 +12,13 @@ class LoginScreen extends StatelessWidget {
         padding: getPadding(horizontal: 16.0.w),
         child: Column(
           children: [
+            80.vs,
             CustomPngImage(image: AppAssets.logo),
-            100.vs,
+            130.vs,
             ExpandLoginButton(),
-            24.vs,
             CustomButton(
-              text: 'الدعم الفني',
-              onPressed: () {
-                Routes.homeRoute.moveTo();
-              },
+              text: AppStrings.support,
+              onPressed: () {},
               backgroundColor: AppColors.secondColor,
               borderColor: AppColors.secondColor,
               borderRadius: 10.r,

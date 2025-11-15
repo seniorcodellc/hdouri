@@ -10,7 +10,10 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text(
         title,
-        style: getBoldTextStyle(fontSize: 24, color: AppColors.primaryColor),
+        style: getBoldTextStyle(
+          fontSize: 24.sp,
+          color: AppColors.primaryColor,
+        ),
       ),
       backgroundColor: AppColors.scaffold,
       automaticallyImplyLeading: false,
@@ -20,7 +23,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
         onTap: () {
           pop();
         },
-        child: Icon(Icons.arrow_back, color: AppColors.darkGray, size: 28),
+        child: Icon(Icons.arrow_back, color: AppColors.grayHint,size: 28,),
       ),
       actions: actions ?? [],
     );

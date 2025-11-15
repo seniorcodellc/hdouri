@@ -1,6 +1,9 @@
 import 'package:hdouri/features/authentication/presentation/managers/cities_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/governorates_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/merchant_list_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/screens/confirm_request_screen.dart';
+import 'package:hdouri/features/authentication/presentation/screens/login_email_screen.dart';
+import 'package:hdouri/features/authentication/presentation/screens/login_nafaz_screen.dart';
 import 'package:hdouri/features/home/presentation/screens/home_screen.dart';
 import 'package:hdouri/features/performance_board/presentation/screens/performance_board_screen.dart';
 import 'package:hdouri/features/specify_your_location/presentation/screens/specify_your_location_screen.dart';
@@ -28,6 +31,55 @@ class RouteGenerator {
           ],
           child: LoginScreen(),
         );
+        case Routes.loginEmailRoute:
+        return buildPageRoute<T>(
+          providers: [
+            BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+          ],
+          child: LoginEmailScreen(),
+        );
+        case Routes.loginNafazRoute:
+        return buildPageRoute<T>(
+          providers: [
+            BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+          ],
+          child: LoginNafazScreen(),
+        );
+        case Routes.confirmRequest:
+        return buildPageRoute<T>(
+          providers: [
+            BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+          ],
+          child: ConfirmRequestScreen(),
+        );
+      // case Routes.registerTechRoute:
+      //   return buildPageRoute<T>(
+      //     child: SignUpAsTech(),
+      //     providers: [
+      //       BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+      //       BlocProvider<MerchantListCubit>(
+      //         create: (context) => MerchantListCubit(
+      //           merchantListUseCases: ServiceLocator()
+      //               .getIt<MerchantListUseCases>(),
+      //         )..getList(),
+      //       ),
+      //     ],
+      //   );
+      // case Routes.registerTraderRoute:
+      //   return buildPageRoute<T>(
+      //     providers: [
+      //       BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+      //       BlocProvider<GovernoratesCubit>(
+      //         create: (context) => GovernoratesCubit(
+      //           governoratesUseCases: ServiceLocator()
+      //               .getIt<GovernoratesUseCases>(),
+      //         )..getList(),
+      //       ),
+      //       BlocProvider<CitiesCubit>(create: (context) => CitiesCubit()),
+      //     ],
+      //     child: SignUpAsTrader(),
+      //   );
+
       case Routes.homeRoute:
         return buildPageRoute<T>(child: HomeScreen());
       case Routes.specifyYourLocationRoute:
