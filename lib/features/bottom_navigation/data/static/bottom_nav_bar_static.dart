@@ -1,9 +1,4 @@
-import 'package:hdouri/features/merchant_dashboard/presentation/screens/merchant_dashboard_screen.dart';
-import 'package:hdouri/features/tech_dashborad/presentation/screens/tech_dashboard.dart';
-import 'package:hdouri/features/tech_dashborad/presentation/screens/tech_operations_log_screen.dart';
-import 'package:hdouri/features/tech_dashborad/presentation/screens/tech_points_summary_screen.dart';
 import '../../../../exports.dart';
-import '../../../tech_dashborad/presentation/screens/tech_settings_screen.dart';
 import '../models/bottom_nav_bar_model.dart';
 
 class BottomNavBarStatic {
