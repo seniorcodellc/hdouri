@@ -1,7 +1,7 @@
 import '../../../../exports.dart';
 
-class HomePerformanceButton extends StatelessWidget {
-  const HomePerformanceButton({super.key});
+class HomePerformanceBoardButton extends StatelessWidget {
+  const HomePerformanceBoardButton({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,9 @@ class HomePerformanceButton extends StatelessWidget {
       width: 114.w,
       height: 34.h,
       color: AppColors.white,
-      onPressed: () {},
+      onPressed: () {
+        Routes.performerBoardRoute.moveTo();
+      },
       side: const BorderSide(color: AppColors.borderColor, width: 1),
       text: AppStrings.performanceBoard,
       style: getRegularTextStyle(color: AppColors.borderColor),

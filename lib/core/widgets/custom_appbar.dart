@@ -2,7 +2,8 @@ import '../../exports.dart';
 
 class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
-  const CustomAppbar({required this.title, super.key});
+  List<Widget>? actions;
+  CustomAppbar({required this.title, this.actions, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +22,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
         },
         child: Icon(Icons.arrow_back, color: AppColors.darkGray, size: 28),
       ),
-      actions: [],
+      actions: actions ?? [],
     );
   }
 

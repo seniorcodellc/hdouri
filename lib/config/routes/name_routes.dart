@@ -1,7 +1,8 @@
 class Routes {
   // static const String splashScreen = "/";
   static const String homeRoute = "/selectLanguageRoute";
-  static const String specifyYourLocationRoute = "/SpecifyYourLocation";
+  static const String specifyYourLocationRoute = "/specifyYourLocation";
+  static const String performerBoardRoute = "/performerBoard";
   static const String onBoardingRoute = "/onBoarding";
   static const String dashboardRoute = "/dashboard";
   static const String merchantDashboardRoute = "/merchantDashboard";
