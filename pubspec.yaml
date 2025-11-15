@@ -1,0 +1,126 @@
+name: hdouri
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg:
+  flutter_native_splash:
+  flutter_bloc:
+  pretty_bloc_observer:
+  mobile_scanner:
+  flutter_local_notifications:
+  dartz:
+  dio:
+  inspection:
+  flutter_staggered_grid_view:
+  image_picker: ^1.1.2
+  #  video_player:
+  connectivity_plus:
+  equatable:
+  pretty_dio_logger:
+  timer_count_down:
+  permission_handler: ^12.0.0+1
+  logger:
+  shared_preferences: ^2.2.2
+  get_it:
+  fluttertoast:
+  hive:
+  hive_flutter:
+  simple_circular_progress_bar:
+  syncfusion_flutter_charts:
+  sms_autofill:
+  bloc:
+  cached_network_image:
+  carousel_slider:
+  lottie:
+
+  calendar_date_picker2:
+  pinput:
+  auto_size_text:
+  firebase_messaging:
+  firebase_core:
+  pin_code_fields:
+  shimmer:
+  file_picker:
+  url_launcher:
+  geocoding:
+  geolocator:
+  google_maps_cluster_manager:
+  google_maps_flutter:
+  custom_info_window:
+  location:
+  cached_network_svg_image:
+  loading_animation_widget:
+  widget_to_marker:
+  maps_toolkit:
+  whatsapp_unilink:
+  laravel_echo: ^1.0.0-beta.1
+  socket_io_client:
+  arabic_numbers:
+  draggable_bottom_sheet_nullsafety:
+  flutter_keyboard_visibility: ^6.0.0
+  collection:
+  group_list_view:
+  badges:
+  dotted_border: ^2.1.0
+  dotted_line:
+  dropdown_search:
+  flutter_dash:
+  intl_phone_number_input:
+  rxdart:
+  slide_to_act:
+  syncfusion_flutter_core:
+  syncfusion_flutter_sliders:
+  iconsax_plus:
+  device_preview: ^1.2.0
+  flutter_screenutil: ^5.9.3
+  flutter_image_compress: ^2.4.0
+  country_picker: ^2.0.27
+  camera: ^0.10.5
+  easy_localization:
+  camera_platform_interface: ^2.2.4
+  flutter_hooks: ^0.21.2
+  #webview_flutter_android: ^4.7.0
+  change_app_package_name: ^1.5.0
+  flutter_credit_card: ^4.1.0
+  share_plus: ^11.0.0
+  free_map: ^2.3.0
+  flutter_cached_pdfview: ^0.4.3
+  widget_zoom:
+  country_code_picker:
+  country_flags: ^4.0.1
+  flutter_launcher_icons:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/translations/
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/cairo/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/cairo/Cairo-Light.ttf
+          weight: 300
