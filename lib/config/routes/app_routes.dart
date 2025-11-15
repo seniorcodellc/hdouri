@@ -1,6 +1,9 @@
 import 'package:hdouri/features/authentication/presentation/managers/cities_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/governorates_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/merchant_list_cubit.dart';
+import 'package:hdouri/features/authentication/presentation/screens/confirm_request_screen.dart';
+import 'package:hdouri/features/authentication/presentation/screens/login_email_screen.dart';
+import 'package:hdouri/features/authentication/presentation/screens/login_nafaz_screen.dart';
 
 
 import 'package:nested/nested.dart';
@@ -25,6 +28,27 @@ class RouteGenerator {
             BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
           ],
           child: LoginScreen(),
+        );
+        case Routes.loginEmailRoute:
+        return buildPageRoute<T>(
+          providers: [
+            BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+          ],
+          child: LoginEmailScreen(),
+        );
+        case Routes.loginNafazRoute:
+        return buildPageRoute<T>(
+          providers: [
+            BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+          ],
+          child: LoginNafazScreen(),
+        );
+        case Routes.confirmRequest:
+        return buildPageRoute<T>(
+          providers: [
+            BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
+          ],
+          child: ConfirmRequestScreen(),
         );
       // case Routes.registerTechRoute:
       //   return buildPageRoute<T>(

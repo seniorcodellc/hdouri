@@ -17,8 +17,8 @@ class HLine extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: verticalPadding ?? 10.h),
       child: Container(
         width: width ?? double.infinity,
-        height: thickness ?? 2,
-        color: color ?? AppColors.borderColor,
+        height: thickness ?? 1,
+        color: color ?? AppColors.dots,
       ),
     );
   }

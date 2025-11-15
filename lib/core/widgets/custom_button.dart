@@ -49,7 +49,7 @@ class CustomButton extends StatelessWidget {
             height: 20.w,
             color: textColor ?? AppColors.white,
           ) : const SizedBox(width: 0),
-          svgIconPath != null ? SizedBox(width: 8.w) : const SizedBox(width: 0),
+          svgIconPath != null ? SizedBox(width: 10.w) : const SizedBox(width: 0),
           Center(
             child: Text(
               text,
