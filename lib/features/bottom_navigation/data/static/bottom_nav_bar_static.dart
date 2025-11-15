@@ -11,7 +11,7 @@ class BottomNavBarStatic {
     BottomNavBarModel(
       asset: AppAssets.loyalty,
       tabName: AppStrings.pointsAr,
-      appBatTitle: AppStrings.pointsSummary,
+     // appBatTitle: AppStrings.pointsSummary,
     ),
     BottomNavBarModel(
       asset: AppAssets.logs,
@@ -20,8 +20,8 @@ class BottomNavBarStatic {
     ),
     BottomNavBarModel(
       asset: AppAssets.tabSettings,
-      tabName: AppStrings.settingsAr,
-      appBatTitle: AppStrings.settingsAr,
+      tabName: AppStrings.settings,
+      //appBatTitle: AppStrings.settingsAr,
     ),
   ];
 }
