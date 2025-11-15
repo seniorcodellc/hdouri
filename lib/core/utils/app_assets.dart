@@ -27,7 +27,6 @@ class AppAssets {
   static String company = "${SvgImages.svgPath}company.svg";
   static String download = "${SvgImages.svgPath}download.svg";
   static String settings = "${SvgImages.svgPath}settings.svg";
-  static String profile = "${SvgImages.svgPath}profile.svg";
   static String visits = "${SvgImages.svgPath}visits.svg";
   static String success = "${SvgImages.svgPath}dialog_success.svg";
   static String failure = "${SvgImages.svgPath}dialog_failure.svg";
@@ -84,6 +83,7 @@ class AppAssets {
   //! PNG
 
   static String logo = "${PngImages.imagesPath}logo.png";
+  static String profile = "${PngImages.imagesPath}profile.png";
   static String loginImage = "${PngImages.imagesPath}login_image.png";
   static String splashImage = "${PngImages.imagesPath}splash_img.png";
   static String onboarding1 = "${PngImages.imagesPath}onboarding1.png";
