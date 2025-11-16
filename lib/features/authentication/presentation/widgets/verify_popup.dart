@@ -1,3 +1,5 @@
+import 'package:hdouri/features/authentication/presentation/widgets/transfer_row.dart';
+
 import '../../../../exports.dart';
 
 class VerifyPopup extends StatelessWidget {
@@ -17,40 +19,19 @@ class VerifyPopup extends StatelessWidget {
           children: [
             Text(
               AppStrings.confirmTransfer,
-              style: getMediumTextStyle(
-                fontSize: 16.sp,
-                color: AppColors.white,
-              ),
+              style: getMediumTextStyle(fontSize: 16.sp, color: AppColors.white,),
             ),
             18.vs,
             Text(
               AppStrings.moveTo,
-              style: getRegularTextStyle(
-                fontSize: 12.sp,
-                color: AppColors.white,
-              ),
+              style: getRegularTextStyle(fontSize: 12.sp, color: AppColors.white,),
             ),
-            Padding(
-              padding: getPadding(vertical: 35.0.h),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(AppStrings.nafazCountry,style: getBoldTextStyle(fontSize: 22.sp,color: AppColors.white),),
-                  25.hs,
-                  CustomSVGImage(asset: AppAssets.exchange,),
-                  25.hs,
-                  Text(AppStrings.education,style: getBoldTextStyle(fontSize: 22.sp,color: AppColors.white),),
-                ],
-              ),
-            ),
+            TransferRow(),
             Padding(
               padding: getPadding(horizontal:28.0.w),
               child: Text(
                 AppStrings.pressMove,
-                style: getRegularTextStyle(
-                  fontSize: 12.sp,
-                  color: AppColors.white,
-                ),
+                style: getRegularTextStyle(fontSize: 12.sp, color: AppColors.white,),
                 textAlign: TextAlign.center,
               ),
             ),
@@ -58,7 +39,6 @@ class VerifyPopup extends StatelessWidget {
             CustomButton(
               text: AppStrings.move,
               onPressed: () {},
-              borderRadius: 10.r,
               borderColor: AppColors.white,
               backgroundColor: AppColors.white,
               textColor: AppColors.primaryColor,
@@ -67,7 +47,6 @@ class VerifyPopup extends StatelessWidget {
             CustomButton(
               text: AppStrings.cancel,
               onPressed: () {},
-              borderRadius: 10.r,
               borderColor: AppColors.white,
               backgroundColor: AppColors.primaryColor,
               textColor: AppColors.white,
@@ -78,3 +57,4 @@ class VerifyPopup extends StatelessWidget {
     );
   }
 }
+

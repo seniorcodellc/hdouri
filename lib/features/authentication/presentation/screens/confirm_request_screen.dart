@@ -40,7 +40,6 @@ class ConfirmRequestScreen extends StatelessWidget {
                       },
                       backgroundColor: AppColors.bgColor,
                       borderColor: AppColors.primaryColor,
-                      borderRadius: 10.r,
                     ),
                   ),
                   70.vs,

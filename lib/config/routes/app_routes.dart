@@ -5,7 +5,9 @@ import 'package:hdouri/features/authentication/presentation/screens/confirm_requ
 import 'package:hdouri/features/authentication/presentation/screens/login_email_screen.dart';
 import 'package:hdouri/features/authentication/presentation/screens/login_nafaz_screen.dart';
 import 'package:hdouri/features/home/presentation/screens/home_screen.dart';
+import 'package:hdouri/features/notifications/presentation/screens/notification_screen.dart';
 import 'package:hdouri/features/performance_board/presentation/screens/performance_board_screen.dart';
+import 'package:hdouri/features/profile/presentation/screens/profile_screen.dart';
 import 'package:hdouri/features/specify_your_location/presentation/screens/specify_your_location_screen.dart';
 
 import 'package:nested/nested.dart';
@@ -51,6 +53,14 @@ class RouteGenerator {
             BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
           ],
           child: ConfirmRequestScreen(),
+        );
+        case Routes.notificationsRoute:
+        return buildPageRoute<T>(
+          child: NotificationScreen(),
+        );
+        case Routes.profileScreen:
+        return buildPageRoute<T>(
+          child: ProfileScreen(),
         );
       // case Routes.registerTechRoute:
       //   return buildPageRoute<T>(

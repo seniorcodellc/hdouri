@@ -9,7 +9,7 @@ class SearchLocationButton extends StatelessWidget {
       leftIcon: CustomSVGImage(asset: AppAssets.searchLocation),
       onPressed: () {},
       text: AppStrings.searchLocation,
-      width: 190,
+      width: 198,
     );
   }
 }
