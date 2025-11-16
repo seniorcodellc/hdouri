@@ -53,14 +53,12 @@ class _AttendanceNavButtonState extends State<AttendanceNavButton> {
 
   Widget bottomNavBarTab(int index) {
     final model = AttendanceNavButtonStatic.tabs[index];
-    // final bool isSelected = selectedIndex == index;
+     final bool isSelected = selectedIndex == index;
 
     return GestureDetector(
-      // behavior: HitTestBehavior.translucent,
-      onTap: () {
-        setState(() => selectedIndex = index);
-      },
-      child: AttendanceButtonItem(asset: model.asset, model: model),
+       behavior: HitTestBehavior.translucent,
+      onTap: () {setState(() => selectedIndex = index);},
+      child: AttendanceButtonItem(asset: model.asset, model: model, isSelected: isSelected,),
     );
   }
 }
