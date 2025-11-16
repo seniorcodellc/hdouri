@@ -3,6 +3,7 @@ import '../../../../exports.dart';
 import '../widgets/about_nafaz_widget.dart';
 import '../widgets/confirm_number_container.dart';
 import '../widgets/nafaz_header_introduction.dart';
+import '../widgets/verify_popup.dart';
 class ConfirmRequestScreen extends StatelessWidget {
   const ConfirmRequestScreen({super.key});
   @override
@@ -27,7 +28,16 @@ class ConfirmRequestScreen extends StatelessWidget {
                     child: CustomButton(
                       text: AppStrings.cancel,
                       textColor: AppColors.primaryColor,
-                      onPressed: (){},
+                      onPressed: (){
+                        showDialog(
+                          context: context,
+                          builder: (_) => Dialog(
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0.r),),
+                            insetPadding: EdgeInsets.symmetric(horizontal: 14.w,),
+                            child: VerifyPopup(),
+                          ),
+                        );
+                      },
                       backgroundColor: AppColors.bgColor,
                       borderColor: AppColors.primaryColor,
                       borderRadius: 10.r,
@@ -43,3 +53,4 @@ class ConfirmRequestScreen extends StatelessWidget {
     );
   }
 }
+

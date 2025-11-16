@@ -208,8 +208,11 @@ class AppStrings {
   static const String cancel = "إلغاء";
   static const String openNafaz = "الرجاء فتح تطبيق نفاذ وتأكيد الطلب بإختيار الرقم الظاهر";
   static const String confirmTransfer = "تأكيد الانتقال";
-  static const String pressMove = "يرجى الضغط على (انتقال) \nلاستكمال العملية أو (إلغاء) لإلغائها";
+  static const String pressMove = "يرجى الضغط على (انتقال) لاستكمال العملية أو (إلغاء) لإلغائها";
   static const String move = "انتقال";
+  static const String moveTo = "أنت على وشك الانتقال إلى";
+  static const String education = "وزارة\nالتعليم -\nحضوري";
+  static const String nafazCountry = "النفاذ \nالوطني \nالموحد";
 
   /// **************************** Splash ************************************
   ///
