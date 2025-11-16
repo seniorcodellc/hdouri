@@ -12,7 +12,9 @@ class HomePresenceButton extends StatelessWidget {
         width: 4.w,
       ),
       width: 142.w,
-      onPressed: () {},
+      onPressed: () {
+        Routes.attendanceNavButton.moveTo();
+      },
       rightIcon: CustomSVGImage(asset: AppAssets.attendance),
       text: AppStrings.presence,
       style: getRegularTextStyle(color: AppColors.white),

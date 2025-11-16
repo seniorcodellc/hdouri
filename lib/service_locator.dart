@@ -1,4 +1,3 @@
-import 'package:hdouri/features/bottom_navigation/presentation/managers/bottom_nav_operation_cubit.dart';
 import 'package:get_it/get_it.dart';
 import 'exports.dart';
 
@@ -48,7 +47,7 @@ class ServiceLocator {
     registerGovernorates;
     registerMerchantList;
     // registerTechniciansManagement;
-    registerBottomNavigation;
+    // registerBottomNavigation;
   }
 
   get registerAuthDependencies {
@@ -72,11 +71,11 @@ class ServiceLocator {
     );
   }
 
-  get registerBottomNavigation {
-    getIt.registerLazySingleton<BottomNavOperationCubit>(
-      () => BottomNavOperationCubit(),
-    );
-  }
+  // get registerBottomNavigation {
+  //   getIt.registerLazySingleton<BottomNavOperationCubit>(
+  //     () => BottomNavOperationCubit(),
+  //   );
+  // }
 
   get registerGovernorates {
     getIt.registerLazySingleton<GovernoratesRemoteDataSource>(

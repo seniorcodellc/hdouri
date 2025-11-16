@@ -1,10 +1,7 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:hdouri/features/bottom_navigation/presentation/managers/bottom_nav_operation_cubit.dart';
-import 'package:hdouri/features/bottom_navigation/presentation/widget/bottom_navigation_widget.dart';
-
 import '../../exports.dart';
-import '../../features/bottom_navigation/data/static/bottom_nav_bar_static.dart';
+
 import 'custom_floating_action_button.dart';
 
 class CustomBackground extends StatelessWidget {
@@ -72,7 +69,7 @@ class CustomBackground extends StatelessWidget {
         drawer: drawer,
         floatingActionButton: showNavBar ? CustomFloatingActionButton() : null,
 
-        bottomNavigationBar: showNavBar ? BottomNavigationWidget() : null,
+        bottomNavigationBar: bottomNavRoute,
         backgroundColor: backgroundColor,
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         resizeToAvoidBottomInset: true,

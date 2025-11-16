@@ -42,7 +42,7 @@ class CustomElevatedButton extends StatelessWidget {
       margin: margin,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          fixedSize: Size(width ?? 162.w, height ?? 40.h),
+          fixedSize: Size(width ?? 162.w, height ?? 46.h),
           backgroundColor: color ?? AppColors.primaryColor,
           elevation: elevation,
           shape: RoundedRectangleBorder(

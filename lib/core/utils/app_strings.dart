@@ -212,114 +212,12 @@ class AppStrings {
   static const String aboutNafaz = "عن نفاذ";
   static const String termsAndConditionsNafaz = "الشروط والأحكام";
   static const String cancel = "إلغاء";
-  static const String openNafaz = "الرجاء فتح تطبيق نفاذ وتأكيد الطلب بإختيار الرقم الظاهر";
+  static const String openNafaz =
+      "الرجاء فتح تطبيق نفاذ وتأكيد الطلب بإختيار الرقم الظاهر";
   static const String confirmTransfer = "تأكيد الانتقال";
-  static const String pressMove = "يرجى الضغط على (انتقال) \nلاستكمال العملية أو (إلغاء) لإلغائها";
+  static const String pressMove =
+      "يرجى الضغط على (انتقال) \nلاستكمال العملية أو (إلغاء) لإلغائها";
   static const String move = "انتقال";
-
-  /// **************************** Splash ************************************
-  ///
-  static const String splashHeaderAr = 'أهلا بك فى تطبيق نقاط الولاء';
-  static const String appNameAr = "برنامج نقاط الولاء";
-  static const String splashBodyAr = "نظام إدارة النقاط الذكي";
-  static const String appDescriptionAr =
-      "تطبيق لإدارة نقاط الولاء بين التاجر والفني، يجمع النقاط عبر مسح الأكواد ويوفر تتبّع للرصيد والسجلات مع إمكانية صرف الاستحقاقات وطباعة شهادات الضمان.";
-
-  /// **************************** tech dashboard ************************************
-  static const String quickProceduresAr = 'إجراءات سريعة';
-  static const String totalPointsAr = 'إجمالى النقاط ';
-  static const String replacedPointsAr = ' النقاط المستبدلة ';
-  static const String availablePointsAr = ' النقاط المتاحة';
-  static const String lastScanOperationsAr = 'أخر عمليات المسح ';
-  static const String displayAllAr = 'عرض الكل ';
-  static const String totalOperationsAr = 'إجمالي العمليات';
-  static const String entitlementsAr = "الاستحقاقات ";
-  static const String pointsLogAr = "سجل النقاط";
-  static const String techNameAr = "محمد على";
-  static const String techDescriptionAr = "فني معتمد";
-  static const String profileEditAr = 'تعديل الملف الشخصي';
-  static const String profileChangePasswordAr = 'تغيير كلمة المرور';
-  static const String profileWarrantyCertificatesAr = 'شهادات الضمان';
-  static const String notificationsAr = "الإشعارات";
-  static const String logOutAr = "تسجيل الخروج";
-  static const String pointsNotificationsAr = "إشعارات النقاط";
-  static const String deleteNotificationsAr = "إشعارات المسح";
-  static const String systemNotificationsAr = "إشعارات النظام";
-  static const String applyForNextAcheiveAr = "التقدم للمكافأة التالية";
-
-  /// **************************** Merchant dashboard ************************************
-  static const String merchantNameAr = "محمد على";
-  static const String merchantCompanyNameAr = "شركة الأجهزة المتقدمة";
-  static const String techManagement = "إدارة الفنيين";
-  static const String pointsSummary = "ملخص النقاط";
-  static const String operationHistory = "سجل العمليات";
-  static const String scanCode = "مسح البار كود";
-  static const String helloText = "مرحباً , أحمد";
-
-  /// **************************** Merchant management ************************************
-  static const String techniciansManagement = "إدارة الفنيين";
-  static const String activeTech = "الفنيون النشطون";
-  static const String waitingTech = "قيد المراجعه";
-  static const String active = "نشط";
-  static const String underReview = "قيد المراجعه";
-  static const String orderDate = "تاريخ الطلب";
-  static const String scanOperation = "عملية مسح";
-  static const String showDetails = "عرض التفاصيل";
-  static const String point = "نقطه";
-  static const String techQuestion = "سؤال التحقق من التاجر";
-  static const String techQuestionAnswer = "إجابة سؤال التحقق من التاجر";
-  static const String accept = "قبول";
-  static const String reject = "رفض";
-
-  /// **************************** Points Summary ************************************
-  static const String availablePoints = "النقاط المتاحة";
-  static const String totalAr = "الإجمالي";
-  static const String replaced = "المستبدلة";
-  static const String nextAward = "التقدم للمكافأة التالية";
-  static const String benefits = "الاستحقاقات";
-  static const String totalPoints = "مجموع النقاط";
-  static const String replacedPoints = "نقاط المستبدلة";
-  static const String pointsValue = "قيمة النقاط";
-  static const String pointsHistory = "سجل النقاط";
-  static const String techBenefitsDetails = "تفاصيل استحقاق الفني";
-  static const String paid = "تم الصرف";
-  static const String notPaid = "لم يتم الصرف";
-  static const String saveAr = "حفظ";
-  static const String cancelAr = "إلغاء";
-
-  /// **************************** Operations History ************************************
-  static const String operationsHistoryAr = 'سجل العمليات';
-  static const String products = 'المنتجات';
-  static const String product = 'منتج';
-  static const String publishWarranty = 'اصدار شهادة ضمان';
-
-  /// **************************** settings ************************************
-  static const String settingsAr = 'الإعدادت';
-  static const String editProfile = 'تعديل الملف الشخصي';
-  static const String changePasswordAr = 'تغيير كلمة المرور';
-  static const String warrantyCertificates = 'شهادات الضمان';
-
-  /// **************************** scan ************************************
-  static const String startScan = 'ابدا المسح';
-  static const String scanOtherCode = 'مسح باركود آخر';
-  static const String serialNumber = 'الرقم التسلسلي';
-  static const String productName = 'اسم المنتج';
-  static const String earnedPoints = 'النقاط المكتسبة';
-  static const String unavailableMessage =
-      'هذا المنتج غير مسجل في النظام. تم إرسال تنبيه للمسؤول مع بيانات الفني والتاجر.';
-
-  /// **************************** warranty ************************************
-  static const String warrantyCertificate = 'شهادة الضمان';
-  static const String createWarranty = 'إنشاء شهادة ضمان';
-  static const String addProductWarrantyMessage =
-      'أضف المنتجات التي تريد إصدار شهادة ضمان لها';
-  static const String addProduct = 'إضافة منتج';
-  static const String clientName = 'اسم العميل';
-  static const String enterClientName = 'أدخل اسم العميل';
-  static const String printWarranty = 'طباعة شهادة الضمان';
-  static const String publishWarrantyMessage =
-      'سيتم إصدار شهادة ضمان لجميع المنتجات\n المدرجة بتاريخ اليوم ومدة ضمان سنة واحدة';
-  static const String readDate = 'تاريخ القراءه';
 
   /// **************************** bottom nav bar tabs ************************************
   static const String homeAr = "الرئيسية";
@@ -359,6 +257,11 @@ class AppStrings {
   static const String earlyDismissal = 'الانصراف المبكر';
   static const String delayAttendance = 'تأخير الحضور';
   static const String hour = 'ساعة';
+
+  /// **************************** Take A Photo Screen ************************************
+  ///
+  static const String takeAPhotoInstruction =
+      'يرجى التقاط صورة مناسبة وبيان الوجه كاملاً\n تجنباً لرفض عملية التحضير .';
 
   /// **************************** error handler ************************************
   static const String badRequestError = "badRequestError";

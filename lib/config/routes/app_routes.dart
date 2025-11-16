@@ -1,3 +1,4 @@
+import 'package:hdouri/core/attendance_nav_button/presentation/screens/attendance_nav_button.dart';
 import 'package:hdouri/features/authentication/presentation/managers/cities_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/governorates_cubit.dart';
 import 'package:hdouri/features/authentication/presentation/managers/merchant_list_cubit.dart';
@@ -7,6 +8,7 @@ import 'package:hdouri/features/authentication/presentation/screens/login_nafaz_
 import 'package:hdouri/features/home/presentation/screens/home_screen.dart';
 import 'package:hdouri/features/performance_board/presentation/screens/performance_board_screen.dart';
 import 'package:hdouri/features/specify_your_location/presentation/screens/specify_your_location_screen.dart';
+import 'package:hdouri/features/take_a_photo/presentation/screens/take_a_photo_screen.dart';
 
 import 'package:nested/nested.dart';
 
@@ -31,21 +33,21 @@ class RouteGenerator {
           ],
           child: LoginScreen(),
         );
-        case Routes.loginEmailRoute:
+      case Routes.loginEmailRoute:
         return buildPageRoute<T>(
           providers: [
             BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
           ],
           child: LoginEmailScreen(),
         );
-        case Routes.loginNafazRoute:
+      case Routes.loginNafazRoute:
         return buildPageRoute<T>(
           providers: [
             BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
           ],
           child: LoginNafazScreen(),
         );
-        case Routes.confirmRequest:
+      case Routes.confirmRequest:
         return buildPageRoute<T>(
           providers: [
             BlocProvider<ErrorCubit>(create: (context) => ErrorCubit()),
@@ -86,6 +88,10 @@ class RouteGenerator {
         return buildPageRoute<T>(child: SpecifyYourLocationScreen());
       case Routes.performerBoardRoute:
         return buildPageRoute<T>(child: PerformanceBoardScreen());
+      case Routes.takeAPhotoRoute:
+        return buildPageRoute<T>(child: TakeAPhotoScreen());
+      case Routes.attendanceNavButton:
+        return buildPageRoute<T>(child: AttendanceNavButton());
 
       /*
         case Routes.followUps:

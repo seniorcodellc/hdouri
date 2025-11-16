@@ -12,8 +12,8 @@ class AppColors {
   static const Color darkGray = Color(0XFF7E7A7D);
   static const Color lightGray = Color(0XFF8C8C8C);
   static const Color borderColor = Color(0XFFB3A38B);
-  static const Color fingerPrintButtonBg = Color(0XFFF0F0F0);
-  static const Color fingerPrintButtonItem = Color(0XFFFAFAFA);
+  static const Color attendanceButtonBg = Color(0XFFF0F0F0);
+  static const Color attendanceButtonItem = Color(0XFFFAFAFA);
   static const Color lightGreen = Color(0XFFCDD8BF);
   static const Color lighterGrey = Color(0XFFECF3F3);
   static const Color presenceButtonColor = Color(0XFFC8C6C2);

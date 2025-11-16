@@ -18,7 +18,9 @@ class LoginScreen extends StatelessWidget {
             ExpandLoginButton(),
             CustomButton(
               text: AppStrings.support,
-              onPressed: () {},
+              onPressed: () {
+                Routes.homeRoute.moveTo();
+              },
               backgroundColor: AppColors.secondColor,
               borderColor: AppColors.secondColor,
               borderRadius: 10.r,

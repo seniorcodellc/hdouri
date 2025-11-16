@@ -83,6 +83,7 @@ class AppAssets {
   //! PNG
 
   static String logo = "${PngImages.imagesPath}logo.png";
+  static String takeAPhoto = "${PngImages.imagesPath}take_a_photo.png";
   static String profile = "${PngImages.imagesPath}profile.png";
   static String loginImage = "${PngImages.imagesPath}login_image.png";
   static String splashImage = "${PngImages.imagesPath}splash_img.png";
