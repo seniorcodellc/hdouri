@@ -1,5 +1,3 @@
-import 'package:hdouri/core/attendance_nav_button/data/statics/attendance_nav_button_static.dart';
-
 import '../../../../exports.dart';
 import '../../data/models/attendance_nav_button_model.dart';
 

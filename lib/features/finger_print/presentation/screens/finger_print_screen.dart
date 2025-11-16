@@ -5,6 +5,18 @@ class FingerPrintScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Center(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          CustomPngImage(image: AppAssets.fingerprintBox),
+          40.vs,
+          Text(
+            AppStrings.pleaseTouchFingerPrint,
+            style: getMediumTextStyle(fontSize: 20),
+          ),
+        ],
+      ),
+    );
   }
 }

@@ -276,6 +276,16 @@ class AppStrings {
   static const String takeAPhotoInstruction =
       'يرجى التقاط صورة مناسبة وبيان الوجه كاملاً\n تجنباً لرفض عملية التحضير .';
 
+  /// **************************** FingerPrint Screen ************************************
+  static const String pleaseTouchFingerPrint = "الرجاء مسح البصمه";
+
+  /// **************************** Record Voice Screen ************************************
+  static const String readRecordVoiceInstruction =
+      "فضلا اقرأ عبارة التعرف الصوتي";
+  static const String readRecordVoiceInstruction2 =
+      "فضلا اقرأ عبارة التعرف الصوتي بصوت";
+  static const String pressButtonLong = "أضغط الزر باستمرار للتسجيل";
+
   /// **************************** error handler ************************************
   static const String badRequestError = "badRequestError";
   static const String noContent = "noContent";
