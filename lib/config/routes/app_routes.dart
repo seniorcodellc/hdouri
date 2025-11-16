@@ -5,6 +5,7 @@ import 'package:hdouri/features/authentication/presentation/screens/confirm_requ
 import 'package:hdouri/features/authentication/presentation/screens/login_email_screen.dart';
 import 'package:hdouri/features/authentication/presentation/screens/login_nafaz_screen.dart';
 import 'package:hdouri/features/home/presentation/screens/home_screen.dart';
+import 'package:hdouri/features/performance_board/presentation/screens/performance_board_screen.dart';
 import 'package:hdouri/features/specify_your_location/presentation/screens/specify_your_location_screen.dart';
 
 import 'package:nested/nested.dart';
@@ -83,6 +84,8 @@ class RouteGenerator {
         return buildPageRoute<T>(child: HomeScreen());
       case Routes.specifyYourLocationRoute:
         return buildPageRoute<T>(child: SpecifyYourLocationScreen());
+      case Routes.performerBoardRoute:
+        return buildPageRoute<T>(child: PerformanceBoardScreen());
 
       /*
         case Routes.followUps:

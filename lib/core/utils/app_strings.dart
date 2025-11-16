@@ -73,9 +73,9 @@ class AppStrings {
   static const String confirm = "confirm";
   static const String cancelByOrganizer = "cancelByOrganizer";
   static const String resetFilter = "resetFilter";
-  static const String from = "from";
+  // static const String from = "from";
   static const String bedrooms = "bedrooms";
-  static const String to = "to";
+  // static const String to = "to";
   static const String category = "category";
   static const String filter = "filter";
   static const String back = "back";
@@ -130,8 +130,14 @@ class AppStrings {
   static const String seeAll = "seeAll";
   // static const String welcome = "welcome";
   // static const String day = "day";
-  static const String importantAuctions = "importantAuctions";
-  static const String hour = "hour";
+  static const String importantAuctions =
+      "important"
+      ""
+      ""
+      ""
+      ""
+      "Auctions";
+  // static const String hour = "hour";
   static const String minute = "minute";
   static const String sendingData = "sendingData";
   static const String insurancePaymentVerification =
@@ -343,6 +349,19 @@ class AppStrings {
   ///
   static const String longitude = 'خط الطول ';
   static const String latitude = 'خط العرض ';
+
+  /// **************************** Performance Board Screen ************************************
+  static const String from = 'من';
+  static const String to = 'إلى';
+  static const String startDate = '23 :10 :2025';
+  static const String endDate = '23 :10 :2025';
+  static const String workHoursText = 'ساعات الدوام';
+  static const String workHours = '0';
+  static const String permissionHour = 'الاستئذانات (ساعة)';
+  static const String permissionDay = 'الاستئذانات (يوم)';
+  static const String earlyDismissal = 'الانصراف المبكر';
+  static const String delayAttendance = 'تأخير الحضور';
+  static const String hour = 'ساعة';
 
   /// **************************** error handler ************************************
   static const String badRequestError = "badRequestError";
@@ -786,7 +805,7 @@ class AppStrings {
   static const String addNewPaymentMethod = 'addNewPaymentMethod';
   static const String add16Digit = 'add16Digit';
   static const String cvv_cvc = 'cvv_cvc';
-  static const String endDate = 'endDate';
+  // static const String endDate = 'endDate';
   static const String savePaymentMethod = 'savePaymentMethod';
   static const String addCard = 'addCard';
   static const String useAsDefault = 'useAsDefault';
