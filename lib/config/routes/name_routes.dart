@@ -73,7 +73,7 @@ class Routes {
   static const String paymentDetailsScreen = "/paymentDetailsScreen";
   static const String scanCardScreen = "/scanCardScreen";
   static const String myPaidScreen = "/myPaidScreen";
-  static const String profileScreen = "/";
+  static const String profileScreen = "/profile";
   static const String paymentMethodsScreen = "/paymentMethodsScreen";
   static const String idEntificationScreen = "/idEntificationScreen";
   static const String myProfileDataScreen = "/myProfileDataScreen";

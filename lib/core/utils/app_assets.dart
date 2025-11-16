@@ -79,6 +79,7 @@ class AppAssets {
   static String fingerPrint = "${SvgImages.svgPath}fingerprint.svg";
   static String cameraWhite = "${SvgImages.svgPath}camera_white.svg";
   static String error = "${SvgImages.svgPath}error.svg";
+  static String toggle = "${SvgImages.svgPath}toggle.svg";
 
   //! PNG
 
@@ -92,4 +93,5 @@ class AppAssets {
   static String onboarding3 = "${PngImages.imagesPath}onboarding3.png";
   static String voiceMic = "${PngImages.imagesPath}voice_mic.png";
   static String fingerprintBox = "${PngImages.imagesPath}fingerprint_box.png";
+  static String accountPicture = "${PngImages.imagesPath}account_picture.png";
 }

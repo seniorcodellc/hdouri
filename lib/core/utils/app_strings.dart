@@ -152,7 +152,7 @@ class AppStrings {
   static const String all = "all";
 
   static const String enterNewPassword = "enterNewPassword";
-  static const String save = "save";
+  // static const String save = "save";
   static const String register = "register";
   static const String loginNow = "loginNow";
   static const String enterEmail = "enterEmail";
@@ -218,6 +218,19 @@ class AppStrings {
   static const String pressMove =
       "يرجى الضغط على (انتقال) \nلاستكمال العملية أو (إلغاء) لإلغائها";
   static const String move = "انتقال";
+  static const String moveTo = "أنت على وشك الانتقال إلى";
+  static const String education = "وزارة\nالتعليم -\nحضوري";
+  static const String nafazCountry = "النفاذ \nالوطني \nالموحد";
+  static const String notification = "سجل التنبيهات";
+  static const String noNotification = "لا يوجد تنبيهات";
+  static const String account = "حسابك";
+  static const String profileName = "عبدالرحمن البلوي";
+  static const String profileEmail = "emp1029233309@moe.gov.sa";
+  static const String save = "حفظ";
+  static const String open = "فتح";
+  static const String arabic = "العربية";
+  static const String favoriteLanguage = "اللغة المفضلة";
+  static const String favoriteEntry = "طريقة الدخول المفضلة";
 
   /// **************************** bottom nav bar tabs ************************************
   static const String homeAr = "الرئيسية";
@@ -300,7 +313,7 @@ class AppStrings {
   static const String serverError = 'serverError';
   //////////////////////////////////
   static const String selectPreferredLanguage = 'selectPreferredLanguage';
-  static const String arabic = 'arabic';
+  // static const String arabic = 'arabic';
   static const String english = 'english';
   static const String next = 'next';
   static const String skip = 'skip';
